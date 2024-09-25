@@ -15,7 +15,7 @@ export const OrderProducts = ({ categoryName, products }: Props) => {
     <>
       <div className="h-16 xl:h-auto px-4 xl:px-0 fixed md:hidden flex items-center gap-2 top-0 left-0 w-full xl:relative z-50 bg-surface border-b border-b-gray50 xl:border-b-0 xl:bg-transparent xl:mb-4">
         <div className="block xl:hidden">
-          <IconButton iconName='arrow-left' size={ Size.SM } href="/order/menu"/>
+          <IconButton iconName='arrow-left' size={ Size.SM } href="/menu"/>
         </div>
         <h1 className="text-lg xl:text-xl font-semibold xl:min-h-[1.72rem]">
           { categoryName || "Todo" }
