@@ -1,0 +1,1872 @@
+[
+  {
+    "id": "77ba17ee-9d90-4810-8b29-5d4ac40f9ef9",
+    "name": "Causa Acevichada",
+    "description": "",
+    "price": 22,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780801/xjze3jpdouf9esq6gcvt.png",
+    "variations": [
+      {
+        "id": "c90855cb-12cb-4630-a476-bf6a6fa48e2c",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "7bc94bfb-9d9f-43be-bc31-1e5aba9fb012",
+            "name": "Nulo"
+          },
+          {
+            "id": "4dcfb33f-975a-4610-af97-84ab7bdea6a4",  
+            "name": "Bajo"
+          },
+          {
+            "id": "bba198af-11bd-419b-9e80-a0ee2df5a0ac",
+            "name": "Medio"
+          },
+          {
+            "id": "601859b0-9241-4290-9dfd-52318bbb115f",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "9f743087-1d2c-4fd0-a704-63cb50cfd12b",
+    "name": "Causa Tricolor",
+    "description": "",
+    "price": 29,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780875/mq9qwhg6pgbc59tktmix.png",
+    "variations": [
+      {
+        "id": "688be604-faf4-4752-906e-79822af519b6",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "53547548-8e17-47bd-b2d3-10c3de69c86e",
+            "name": "Nulo"
+          },
+          {
+            "id": "4d480da4-d7fb-45d3-a12a-791cf9e5f096",
+            "name": "Bajo"
+          },
+          {
+            "id": "903d48b3-b47c-4639-9019-4590bdb80d69",
+            "name": "Medio"
+          },
+          {
+            "id": "9c6b1b28-967b-49d4-bd0a-e4455238d25b",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "3791a64f-bc97-4de8-ad78-4750db6bf73d",
+    "name": "Causa de Langostinos",
+    "description": "",
+    "price": 24,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780826/kk1z8w9gql2rsqq8ije7.png",
+    "variations": [
+      {
+        "id": "27dcca3e-4692-4248-8041-1390c418ea92",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "5d9ccb90-21e2-4f07-b1c4-7448aa2915b4",
+            "name": "Nulo"
+          },
+          {
+            "id": "65af9241-5fbd-4800-a2cd-f531f40be84b",
+            "name": "Medio"
+          },
+          {
+            "id": "f9d7355d-ad9d-4593-a60b-1d389020c5af",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "8d7dfced-1bf9-4e82-bd2a-9d9fca997d57",
+    "name": "Causa de Pulpo al Olivo",
+    "description": "",
+    "price": 29,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780847/st8vydt6zp20hf8mops7.png",
+    "variations": [
+      {
+        "id": "8c998f03-1290-4dcc-a722-94e12af89b31",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "1d04016a-3cd6-44c3-8b1e-63befda60c61",
+            "name": "Nulo"
+          },
+          {
+            "id": "773e2a60-0781-41a9-8b21-783bb3e8e659",
+            "name": "Bajo"
+          },
+          {
+            "id": "592c455c-ec51-42fc-9b05-9384eaf6f1ef",
+            "name": "Medio"
+          },
+          {
+            "id": "5ee22b78-ea9d-4eb4-8bc5-76fa0249d911",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "62355811-5650-4fe5-8fd6-6cd3f0e4256e",
+    "name": "Choritos a la Chalaca",
+    "description": "",
+    "price": 23,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780750/atcxi7n1tvczbjttvele.png",
+    "variations": [
+      {
+        "id": "3fbe57cd-5279-478b-86a6-5fb7b209b9b6",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "39fce382-1a1e-4466-975d-e006127c7f2d",
+            "name": "Nulo"
+          },
+          {
+            "id": "403759ef-cceb-419b-8141-2427e27667dd",
+            "name": "Bajo"
+          },
+          {
+            "id": "6ea06a18-6b94-4823-aade-1bc793d8f356",
+            "name": "Medio"
+          },
+          {
+            "id": "c8b3ff3d-e055-4d22-bf8f-e52649fcb2fa",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "530c4c9d-5390-4b30-804d-f24e2334867c",
+    "name": "Langostinos al Panko",
+    "description": "",
+    "price": 26,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780738/r694u92stdrp2ecvjcju.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "93d5d207-2bc6-4f4e-9c02-4479b543f5b6",
+    "name": "Leche Capitán Picante",
+    "description": "",
+    "price": 18,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780618/baeghmzepie9cvq66khw.png",
+    "variations": [
+      {
+        "id": "5dd27f16-36d8-425e-b943-f8debcba35b0",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "03eaa3d3-1877-4e3f-9fc0-305f740c6fda",
+            "name": "Nulo"
+          },
+          {
+            "id": "3a0625ae-dde8-43f2-92ce-d5c9220a22a2",
+            "name": "Bajo"
+          },
+          {
+            "id": "2fac77bc-389d-492c-a2ed-a54aeaae3c89",
+            "name": "Medio"
+          },
+          {
+            "id": "b8e05bd4-f074-4e63-b1da-791591f8c9be",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "9e64ed8e-73e4-4301-9316-0d608728d89e",
+    "name": "Leche de Pantera",
+    "description": "",
+    "price": 22,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780649/tqou6itxdykg226mindb.png",
+    "variations": [
+      {
+        "id": "bb356580-22f1-4c2c-9e2f-c2f03512df8e",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "1b42eccc-a6ab-4665-b2e1-5c94bbd400d3",
+            "name": "Nulo"
+          },
+          {
+            "id": "0047ada9-0960-41a3-9633-e22b8e81226c",
+            "name": "Bajo"
+          },
+          {
+            "id": "99ca16e6-40bc-49f0-aaf8-d20a3e0da070",
+            "name": "Medio"
+          },
+          {
+            "id": "7987a9ba-c998-41f8-807a-a76946169e18",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "3474f7fd-afed-4cf9-b7a5-9d7316578dee",
+    "name": "Leche de Tigre",
+    "description": "",
+    "price": 16,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780502/pzamq5ljlnvtwxhz6k2c.png",
+    "variations": [
+      {
+        "id": "aa2fce90-8d55-4aaa-9b85-94feda3ba282",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "d6aaf570-dacc-495f-968c-0395a9a90f6d",
+            "name": "Nulo"
+          },
+          {
+            "id": "e25db047-4e1a-480e-87c4-e4dc57eb1eee",
+            "name": "Bajo"
+          },
+          {
+            "id": "dfd27395-da4c-479d-b9f7-12798dc6326f",
+            "name": "Medio"
+          },
+          {
+            "id": "ea9452ae-3624-4667-9853-58f3f3992430",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "953c48bd-0027-4d8a-8b70-12eb4090b230",
+    "name": "Leche de Tigre Mixta",
+    "description": "",
+    "price": 19,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780529/uwymz7nm5zkuoymtxzz7.png",
+    "variations": [
+      {
+        "id": "e227b9c3-b095-424b-81bd-44651eb57b63",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "80d4f0ad-2435-41a9-a4f7-639de3c5e78a",
+            "name": "Nulo"
+          },
+          {
+            "id": "55a9fc19-afef-4a1c-85c5-8fc25a012676",
+            "name": "Bajo"
+          },
+          {
+            "id": "a72113a9-2a0b-4962-b60e-c322e57be63f",
+            "name": "Medio"
+          },
+          {
+            "id": "3d46148a-b2ee-4ae1-a528-897d21563e99",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "0b117762-6ca5-4279-8d61-a645fda141de",
+    "name": "Tiradito",
+    "description": "",
+    "price": 24,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780775/kmncoaa7pdh56lajb2gw.png",
+    "variations": [
+      {
+        "id": "17a6a155-d7cd-4122-9e8e-29665e377234",
+        "name": "Tiradito",
+        "options": [
+          {
+            "id": "e29cae58-9ebb-4354-9536-0f9d30efdd90",
+            "name": "Nulo"
+          },
+          {
+            "id": "1f06330a-839c-439b-bf98-b658d7b3c64e",
+            "name": "Medio"
+          },
+          {
+            "id": "90ee9d45-c7f3-444c-abcd-c2440b2229e4",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "768fd406-8b49-4e72-8c20-abf11ad8f2e0",
+    "name": "Tridente a la Huancaína",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780719/fogprxgceguroeu0aj8y.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
+  },
+  {
+    "id": "caa3f8b8-f4b6-4d2d-bce1-abff64bf9a55",
+    "name": "Ceviche Capitán Picante",
+    "description": "",
+    "price": 27,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780986/x1mbx1nmlzmbqdtbdfvb.png",
+    "variations": [
+      {
+        "id": "fa07aa7f-85f9-4db5-b530-7edd387a2dd1",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "ea1e24ea-3e95-4f1e-9a68-5bdd5e2a0388",
+            "name": "Nulo"
+          },
+          {
+            "id": "460d93b9-8e65-46ae-9d5b-5bb25392a737",
+            "name": "Bajo"
+          },
+          {
+            "id": "5b7a2d34-0dec-474d-b3f7-01481aa56b57",
+            "name": "Medio"
+          },
+          {
+            "id": "9ca06dbb-14e4-4964-8ed1-b0b85b343978",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
+  },
+  {
+    "id": "21172712-63b1-47a0-8822-3dd02a830a55",
+    "name": "Ceviche Clásico",
+    "description": "",
+    "price": 34,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781038/la0ujtmy33hsts19wf1t.png",
+    "variations": [
+      {
+        "id": "b4d68a30-1511-4d0f-980c-b2792353b59e",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "e2b6bb92-9f49-4808-b98d-098ae82eb98d",
+            "name": "Nulo"
+          },
+          {
+            "id": "78f1f274-5efe-4ecb-821e-3940d08761e9",
+            "name": "Bajo"
+          },
+          {
+            "id": "d0b68cdc-3376-4835-97c1-099c28a00f03",
+            "name": "Medio"
+          },
+          {
+            "id": "6d4d28bd-088e-434a-8230-3de0f91daa77",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
+  },
+  {
+    "id": "dc1c1f04-1d17-40c5-88d8-886ca25d7a99",
+    "name": "Ceviche Mixto",
+    "description": "",
+    "price": 29,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780952/g5bxf5opvjnxsyf7hans.png",
+    "variations": [
+      {
+        "id": "cc534f5c-615c-4072-862c-ce61662396d9",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "9ff4e6ce-a25a-4038-b1ec-622196cb0060",
+            "name": "Nulo"
+          },
+          {
+            "id": "a1f250e4-cb38-486a-b892-e90d46d96e34",
+            "name": "Bajo"
+          },
+          {
+            "id": "f35553da-b305-4dfb-b18c-c0049e05e69a",
+            "name": "Medio"
+          },
+          {
+            "id": "61fa82a0-4efa-4580-af6d-2918faec1219",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
+  },
+  {
+    "id": "e7f86eef-d8aa-4f7c-858c-b33bb04b9baa",
+    "name": "Ceviche de Conchas Negras",
+    "description": "",
+    "price": 34,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781014/y2jyzfmpv9wafpb0gco6.png",
+    "variations": [
+      {
+        "id": "3033b1bc-3888-4bc7-bf92-3d6e716d899f",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "186f8e4f-cc97-4bf9-a0f0-664ebe3b7dec",
+            "name": "Nulo"
+          },
+          {
+            "id": "bb6a142c-41fb-4ebe-b933-5319346c8747",
+            "name": "Bajo"
+          },
+          {
+            "id": "49cb6a0a-2e37-4e0c-a239-d51b7d4960cd",
+            "name": "Medio"
+          },
+          {
+            "id": "ea9db8d6-1024-42c5-a408-74bff3d231ef",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
+  },
+  {
+    "id": "22ba9068-4b74-4206-b2d8-610626df53b2",
+    "name": "Ceviche de Pescado",
+    "description": "",
+    "price": 24,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780919/ypglgcadeyxtwytfwvoj.png",
+    "variations": [
+      {
+        "id": "548fbb60-4fab-402d-8cc4-29b5b9cd3661",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "6b471498-dc1a-4281-ac03-47ac4e8a341c",
+            "name": "Nulo"
+          },
+          {
+            "id": "4a7e7baf-f441-4df4-8734-629d86f19e5f",
+            "name": "Bajo"
+          },
+          {
+            "id": "69722c86-6501-4fb8-be75-499d564b4168",
+            "name": "Medio"
+          },
+          {
+            "id": "9ec047b6-abc6-433e-8e53-4ac9e1af54ab",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
+  },
+  {
+    "id": "08706db1-a0db-4a3f-89cf-32f1f69f3f48",
+    "name": "Chicharrón Mixto",
+    "description": "",
+    "price": 34,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781190/urwi1utzyujcrymub6o9.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
+  },
+  {
+    "id": "0ca25822-788d-4431-b407-e1d40d3bb200",
+    "name": "Chicharrón de Calamar",
+    "description": "",
+    "price": 39,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781160/dnxiit6wufdfx8w9108o.jpg",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
+  },
+  {
+    "id": "321a7173-e7ce-4fa4-a87a-fcc09aed2770",
+    "name": "Chicharrón de Mariscos",
+    "description": "",
+    "price": 29,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781110/uaargbbbcqottga0ms5c.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
+  },
+  {
+    "id": "9e29f668-5b34-4823-a185-b574682c955b",
+    "name": "Chicharrón de Pescado",
+    "description": "",
+    "price": 28,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781067/ocrqbkyuybvfnlu2zaef.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
+  },
+  {
+    "id": "2838a949-1f73-495a-847c-e1399ab1c09f",
+    "name": "Chicharrón de Pota",
+    "description": "",
+    "price": 16,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781209/knhzowzxikxp1tvvbsme.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
+  },
+  {
+    "id": "791b7459-5c2f-4cdf-9ea1-b04ea34b0da0",
+    "name": "Jalea Mixta",
+    "description": "",
+    "price": 42,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781226/punje4jwfdbkkixswcyv.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
+  },
+  {
+    "id": "e1b5067f-7bc5-4cec-a2d0-049481e54119",
+    "name": "Arroz con Mariscos",
+    "description": "",
+    "price": 27,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781247/dhmvzvxjtdqvwfk7hon5.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "da768af5-8257-46f6-bf07-aaeeab7280eb"
+  },
+  {
+    "id": "cb2e8b9b-5265-448f-a980-a63ea64ed4bc",
+    "name": "Chaufa de Mariscos",
+    "description": "",
+    "price": 26,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781268/gp3tyrjdcvzu8tyrxbam.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "da768af5-8257-46f6-bf07-aaeeab7280eb"
+  },
+  {
+    "id": "f240feed-fd2e-438d-b879-6788c7b69623",
+    "name": "Chaufa de Pescado",
+    "description": "",
+    "price": 26,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781281/hl0ontjvk6jaxy2pajrq.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "da768af5-8257-46f6-bf07-aaeeab7280eb"
+  },
+  {
+    "id": "803da6bd-4c6b-4996-9734-5febdc580005",
+    "name": "Cabrilla Frita Entera",
+    "description": "",
+    "price": 29,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781455/ozn1vcqwe29hqdiy5hky.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
+  },
+  {
+    "id": "35c4f310-859e-4eca-9bd7-0feac437e27b",
+    "name": "Chilcano Especial",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781339/lki6s6k4lzozab2e4wa1.jpg",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
+  },
+  {
+    "id": "5fb2e6cc-c18a-40e3-a598-553dde6ac5c0",
+    "name": "Filete de Pescado",
+    "description": "",
+    "price": 24,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781440/tnt2fxsv4sjuxxxeowqf.jpg",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
+  },
+  {
+    "id": "7d415de3-fdb2-42c5-b405-976d917be299",
+    "name": "Parihuela",
+    "description": "",
+    "price": 34,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781375/mohw8vc9nhjxb5zpv725.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
+  },
+  {
+    "id": "dfec6cf6-09dc-430b-a148-02117bc8b876",
+    "name": "Sudado",
+    "description": "",
+    "price": 28,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781357/w3zrwde611hiy7ktdl0b.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
+  },
+  {
+    "id": "18bd4dd4-cd8c-45a8-9d42-b5d736ff0013",
+    "name": "Porción de Arroz",
+    "description": "",
+    "price": 4,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781473/b9vhk8kwucf23xeuvxey.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "56d6e249-ddf2-4c45-9567-96579af33a2f"
+  },
+  {
+    "id": "6950999e-bdc2-4820-9fde-9518c90e5588",
+    "name": "Porción de Chicharrón de Pota",
+    "description": "",
+    "price": 9,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781530/i1dex8pl0ycvab38gcpn.jpg",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "56d6e249-ddf2-4c45-9567-96579af33a2f"
+  },
+  {
+    "id": "4b9be486-bcb3-4d08-9b52-d7e4b10a3f52",
+    "name": "Porción de Yucas",
+    "description": "",
+    "price": 6,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781489/l0luve77pwrzqoe34ono.png",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "56d6e249-ddf2-4c45-9567-96579af33a2f"
+  },
+  {
+    "id": "30724adf-489a-4b83-8858-c987e93909d1",
+    "name": "Chicha",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781596/objxet2pb84yoeoijqxn.jpg",
+    "variations": [
+      {
+        "id": "24044f1b-869d-4766-a3f3-564cf4a25d83",
+        "name": "Tamaño",
+        "options": [
+          {
+            "id": "69a5d2ab-c136-4cdf-9060-814853c987cb",
+            "name": "1 Lt",
+            "price": 12
+          },
+          {
+            "id": "7e96691d-3b78-40e2-a828-bfb4fa5ae528",
+            "name": "1/2 Lt",
+            "price": 6
+          }
+        ],
+        "hasPrice": true
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "e00dd92a-8f8e-4e6c-b546-22b1d3304b34"
+  },
+  {
+    "id": "9426e54c-4218-4db2-b1c7-e21eee7bd46e",
+    "name": "Limonada",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781719/neo84uvewoqplockfy3g.webp",
+    "variations": [
+      {
+        "id": "42d8ca23-ad6e-4af4-984c-42e976bc12f8",
+        "name": "Tamaño",
+        "options": [
+          {
+            "id": "2604bd3b-94f4-4949-9fe0-99a1017adc32",
+            "name": "1 Lt",
+            "price": 12
+          },
+          {
+            "id": "c129f612-97cd-4f49-85db-5c26bb16e2ca",
+            "name": "1/2 Lt",
+            "price": 6
+          }
+        ],
+        "hasPrice": true
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "e00dd92a-8f8e-4e6c-b546-22b1d3304b34"
+  },
+  {
+    "id": "b6456a45-b75b-4f1a-973b-66038b017341",
+    "name": "Maracuyá",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781660/htesau1xq0aka9sl1z58.png",
+    "variations": [
+      {
+        "id": "c7109420-a511-4276-ae7c-1d58bb406293",
+        "name": "Tamaño",
+        "options": [
+          {
+            "id": "fc8d6654-b842-472f-ba0d-e22ba6db7911",
+            "name": "1 Lt",
+            "price": 12
+          },
+          {
+            "id": "248d072f-d11e-4624-80e9-cc2811babb52",
+            "name": "1/2 Lt",
+            "price": 6
+          }
+        ],
+        "hasPrice": true
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "e00dd92a-8f8e-4e6c-b546-22b1d3304b34"
+  },
+  {
+    "id": "3ae0aca7-29cb-4285-8999-df6a02d5a856",
+    "name": "Agua Personal",
+    "description": "",
+    "price": 3,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782065/bmzerhlposjstand3kaz.webp",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "3b9383c2-c043-45b7-92ac-d2c30b3ef96f"
+  },
+  {
+    "id": "10252509-c5ee-4662-8b05-ced8e53a6456",
+    "name": "Coca-Cola",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781939/nkomyb48ds0bxfjtu3vo.png",
+    "variations": [
+      {
+        "id": "3d6d9101-835a-4ac7-9190-10ea54107e82",
+        "name": "Tamaño",
+        "options": [
+          {
+            "id": "e7828ebc-eafe-41ac-8c62-e5f36716adf2",
+            "name": "1 1/2 Lt",
+            "price": 12
+          },
+          {
+            "id": "29c79465-7d87-4a5c-9fe5-8bdd83301c0c",
+            "name": "1 Lt",
+            "price": 8
+          },
+          {
+            "id": "66994f8f-5b0f-4470-af6e-a8cc1faf07b1",
+            "name": "Personal",
+            "price": 3
+          }
+        ],
+        "hasPrice": true
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "3b9383c2-c043-45b7-92ac-d2c30b3ef96f"
+  },
+  {
+    "id": "0952f978-a410-471d-870e-fb14ea93512b",
+    "name": "Inca Kola",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781947/bme83oea9i1v5ohtui0a.png",
+    "variations": [
+      {
+        "id": "03cfe9c4-3ac4-4c5d-a853-5fcb77b06496",
+        "name": "Tamaño",
+        "options": [
+          {
+            "id": "6d7b0c79-96d9-43b4-921b-203e9ed472d8",
+            "name": "1 1/2 Lt",
+            "price": 12
+          },
+          {
+            "id": "124b7552-6f04-48c0-b165-375a0bc1a357",
+            "name": "1 Lt",
+            "price": 8
+          },
+          {
+            "id": "d3e2adad-7a7f-4603-97ca-6a615a588665",
+            "name": "Personal",
+            "price": 3
+          },
+          {
+            "id": "04fb1a77-075a-4603-b8b7-c9cb03218bac",
+            "name": "Gordita",
+            "price": 6
+          }
+        ],
+        "hasPrice": true
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "3b9383c2-c043-45b7-92ac-d2c30b3ef96f"
+  },
+  {
+    "id": "c5f2ee75-ccfe-48b5-901a-3c771c4baf04",
+    "name": "Cristal 650ml",
+    "description": "",
+    "price": 10,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782184/fawrr4gtv6x9iltsyfxp.webp",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
+  },
+  {
+    "id": "a7cff67c-8901-4440-8fb8-d33bc9def879",
+    "name": "Cusqueña Dorada 620 ml",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782269/bn7q6b8zfxhcuujkohd5.webp",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
+  },
+  {
+    "id": "3f7c41ee-2e73-4034-93ba-790b718cc33d",
+    "name": "Cusqueña de Trigo 310 ml",
+    "description": "",
+    "price": 7,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782407/txwkuni2f4o5qu4cxffl.jpg",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
+  },
+  {
+    "id": "ff8e0972-77b5-456a-95cf-9c015ec5ffc3",
+    "name": "Cusqueña de Trigo 620 ml",
+    "description": "",
+    "price": 12,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782343/sqxroffreetx4dzitamr.jpg",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
+  },
+  {
+    "id": "8b92bcc3-0a74-4d57-a5f1-e208b0b3b8b6",
+    "name": "Pilsen 305 ml",
+    "description": "",
+    "price": 6,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782365/ecpmr6hwg3arxlwtonup.webp",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
+  },
+  {
+    "id": "0a4034cb-34a3-40bc-b353-02d84049c64f",
+    "name": "Pilsen 630 ml",
+    "description": "",
+    "price": 10,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782209/rwtk2msy9qcbsqvpiez2.jpg",
+    "variations": [],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
+  },
+  {
+    "id": "0062fdd8-ae48-423a-a5ec-ed1a38f71f87",
+    "name": "Arma tu Dúo",
+    "description": "",
+    "price": 28,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782666/haut4w93mt92ljp9y64s.png",
+    "variations": [
+      {
+        "id": "b6324a06-b2f2-4c1f-8e6a-1b46fb5e305e",
+        "name": "Primer Plato",
+        "options": [
+          {
+            "id": "7da79b33-0c44-4785-a6b9-c7feb50e774e",
+            "name": "Ceviche de Pescado"
+          },
+          {
+            "id": "f6163e9a-c333-4a09-9a15-1c70de4d5ec7",
+            "name": "Ceviche Mixto"
+          },
+          {
+            "id": "390be4a0-7980-49de-a641-d3018b4ec9f2",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "73604116-b39f-424a-abb7-55440ac2e18d",
+            "name": "Chaufa de Mariscos "
+          },
+          {
+            "id": "303d8fde-74d3-4aff-8169-157dcf3dfe5d",
+            "name": "Chaufa de Pescado"
+          },
+          {
+            "id": "18285a09-ba7c-4fef-b134-45378cd03dce",
+            "name": "Chicharrón de Pescado"
+          },
+          {
+            "id": "4c9dae84-959d-493e-8820-6d8b00369512",
+            "name": "Chicharrón Mixto"
+          },
+          {
+            "id": "9a6142cc-c777-4831-81d7-293b55516606",
+            "name": "Causa Acevichada"
+          },
+          {
+            "id": "d087defb-8602-4112-a85d-e372215e4853",
+            "name": "Causa de Langostinos"
+          },
+          {
+            "id": "662d7ef9-6a04-4eaf-b820-f058627b6ac7",
+            "name": "Causa de Pulpo al Olivo"
+          }
+        ]
+      },
+      {
+        "id": "f93fc919-0c63-4a10-8ad7-2ebb4735420d",
+        "name": "Segundo Plato",
+        "options": [
+          {
+            "id": "6aedebd3-442b-4f23-a650-f34fef73cd95",
+            "name": "Ceviche de Pescado"
+          },
+          {
+            "id": "031629d8-bb04-499d-a836-8662f1db278a",
+            "name": "Ceviche Mixto"
+          },
+          {
+            "id": "dda5f8a4-8f40-4d73-935d-508e68d52dda",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "3c876035-dbdd-4a84-b933-5c3f6e9e751b",
+            "name": "Chaufa de Mariscos "
+          },
+          {
+            "id": "c4c712d4-0d2b-48ba-a904-efd06abd27ac",
+            "name": "Chaufa de Pescado"
+          },
+          {
+            "id": "33141b61-1bee-40f3-b3bd-380fef6e34f2",
+            "name": "Chicharrón de Pescado"
+          },
+          {
+            "id": "b9ac388e-ecb8-4a5c-b235-bf4437622ab3",
+            "name": "Chicharrón Mixto"
+          },
+          {
+            "id": "a5350dc4-b129-4ebf-9e85-ec536691cb1e",
+            "name": "Causa Acevichada"
+          },
+          {
+            "id": "119906fd-4899-4b62-9065-f345b382a6a9",
+            "name": "Causa de Langostinos"
+          },
+          {
+            "id": "225600bc-fb0d-4926-82d1-374f487bd688",
+            "name": "Causa de Pulpo al Olivo"
+          }
+        ]
+      },
+      {
+        "id": "5bb47db9-b91c-4f7c-b50b-20012687b95f",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "b19ccf89-9e3c-415f-b431-59f584085ab5",
+            "name": "Nulo"
+          },
+          {
+            "id": "eb0c87af-8f36-4f72-8c6d-82d495cb7add",
+            "name": "Bajo"
+          },
+          {
+            "id": "5e89452f-0ede-4b25-914d-8825f17a3012",
+            "name": "Medio"
+          },
+          {
+            "id": "9ecfa732-9ccf-4e71-82a8-ed43508ff299",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "928b147e-3f90-41ac-b3fc-554bcbf0b66a"
+  },
+  {
+    "id": "01cb9652-2453-4fff-81bc-530c8732723a",
+    "name": "Dúo Capitán",
+    "description": "",
+    "price": 26,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782615/z3ewmcmawcs5vnyrokev.png",
+    "variations": [
+      {
+        "id": "11b9f984-5f2a-4852-964b-057c88a79f6b",
+        "name": "Arroz",
+        "options": [
+          {
+            "id": "c9cf10d4-b956-4628-9112-4e90037e72f5",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "497514fd-b5bb-4a38-adcd-b7daa4c405d5",
+            "name": "Chaufa de Mariscos"
+          },
+          {
+            "id": "19825594-d53e-4782-97be-849acbbc04bc",
+            "name": "Chaufa de Pescado"
+          }
+        ]
+      },
+      {
+        "id": "f846bbcd-b908-41d1-bfb3-ceef2867949b",
+        "name": "Ceviche",
+        "options": [
+          {
+            "id": "68711a6f-59eb-43d2-9c48-a923727c75cf",
+            "name": "De Pescado"
+          },
+          {
+            "id": "256cf828-ff89-498d-af66-aa5bc2f518d2",
+            "name": "Mixto"
+          }
+        ]
+      },
+      {
+        "id": "548460a8-e8ad-4157-b151-e834c85fd807",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "8fb2a741-00fb-4054-b2e9-4d613d347c3a",
+            "name": "Nulo"
+          },
+          {
+            "id": "c8a99424-c715-4eac-8f2f-381b423661cb",
+            "name": "Bajo"
+          },
+          {
+            "id": "46591f09-adeb-470c-9767-8679e7f10ceb",
+            "name": "Medio"
+          },
+          {
+            "id": "5d8ac34f-cb97-469f-8f90-8ca1c2c83949",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "928b147e-3f90-41ac-b3fc-554bcbf0b66a"
+  },
+  {
+    "id": "876bee6f-21ea-4a3f-857f-fab63f395609",
+    "name": "Dúo Full",
+    "description": "",
+    "price": 25,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782463/urqjmnqrks5qrmzkg0zr.png",
+    "variations": [
+      {
+        "id": "7ba9c4b5-17c2-439d-b225-954e2998c55a",
+        "name": "Ceviche",
+        "options": [
+          {
+            "id": "3b8fbb5d-2d62-4e95-bb1e-0aefa6d7da23",
+            "name": "De Pescado"
+          },
+          {
+            "id": "07037a70-3000-4260-8d1d-f316d50b1d32",
+            "name": "Mixto"
+          }
+        ]
+      },
+      {
+        "id": "d0568827-1338-4765-9bab-e33353fe038a",
+        "name": "Chicharrón",
+        "options": [
+          {
+            "id": "1f6e792d-9b23-4f8c-a7b6-481a11a3b279",
+            "name": "De Pescado"
+          },
+          {
+            "id": "d7104880-73fe-4dd2-b386-7e079b5a4f9c",
+            "name": "Mixto"
+          }
+        ]
+      },
+      {
+        "id": "1ace3888-a499-432d-ba52-8f31e2fcded7",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "7a2c7e71-2b1d-4f07-9c24-4582addfa46a",
+            "name": "Nulo"
+          },
+          {
+            "id": "4d1c2ac2-1d4d-4176-ba2e-6b2e63d4c286",
+            "name": "Bajo"
+          },
+          {
+            "id": "8db4e744-9bf1-4eaa-9451-b7e92e1c38d6",
+            "name": "Medio"
+          },
+          {
+            "id": "84c8b377-67b2-48e9-98e9-627b507f8a28",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "928b147e-3f90-41ac-b3fc-554bcbf0b66a"
+  },
+  {
+    "id": "35dfce34-0f35-434c-97a2-3e9dc7b70b71",
+    "name": "Dúo carretillero",
+    "description": "",
+    "price": 16,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782428/nwkfrscyinteqxpdgbku.png",
+    "variations": [
+      {
+        "id": "ca7aa737-5d99-4e58-baf9-5b3c66542402",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "b050a7bb-cc33-4116-a002-9150448ba8cb",
+            "name": "Nulo"
+          },
+          {
+            "id": "fdc3a733-391f-45c5-8fe3-5c0fdaff19a4",
+            "name": "Bajo"
+          },
+          {
+            "id": "6e99301f-64c3-4baa-abf2-9713272eb965",
+            "name": "Medio"
+          },
+          {
+            "id": "3826e1c0-b8ea-47a3-b322-6dfbd49c0ced",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "928b147e-3f90-41ac-b3fc-554bcbf0b66a"
+  },
+  {
+    "id": "8bb336e7-bc68-4c58-89e1-7c9d209d8cd4",
+    "name": "Arma tu Trío",
+    "description": "",
+    "price": 36,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784442/u4ozjpnao1dnfqi9a3fb.png",
+    "variations": [
+      {
+        "id": "9632f6a5-2e46-4c16-944a-043c06ea16a4",
+        "name": "Primer Plato",
+        "options": [
+          {
+            "id": "2d67828a-c5bf-4fd9-9b5b-1b3381b676fb",
+            "name": "Ceviche de Pescado"
+          },
+          {
+            "id": "b70af9b3-4e3a-429e-8625-c08ee40afacb",
+            "name": "Ceviche Mixto"
+          },
+          {
+            "id": "1da2ec1f-e52d-4a6a-9103-5167b930aeb5",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "79858a79-1cca-4d12-a403-97cc8770d2e4",
+            "name": "Chaufa de Mariscos "
+          },
+          {
+            "id": "c0b502f8-58fa-4414-850b-f445f5686263",
+            "name": "Chaufa de Pescado"
+          },
+          {
+            "id": "8f71b11c-69ba-47fe-96d4-5428b918c96c",
+            "name": "Chicharrón de Pescado"
+          },
+          {
+            "id": "77d351d9-6b70-4257-ab39-fe348842a3a4",
+            "name": "Chicharrón Mixto"
+          },
+          {
+            "id": "9f7df3b8-daa3-4d32-a6e4-e8464639a4ca",
+            "name": "Causa Acevichada"
+          },
+          {
+            "id": "b0770107-ef9c-402d-9af7-0e5ab94584e6",
+            "name": "Causa de Langostinos"
+          },
+          {
+            "id": "22cf6868-3d89-4343-afd2-d1428416de70",
+            "name": "Causa de Pulpo al Olivo"
+          }
+        ]
+      },
+      {
+        "id": "ef905003-93a5-4166-bfe1-2757109ae019",
+        "name": "Segundo Plato",
+        "options": [
+          {
+            "id": "7a01a456-812e-41a1-8dbb-1c1209264083",
+            "name": "Ceviche de Pescado"
+          },
+          {
+            "id": "38e06e7f-cfc8-42d6-a0d5-b503662f2fbd",
+            "name": "Ceviche Mixto"
+          },
+          {
+            "id": "87cb5fca-b68b-4969-a183-47a5785cb0de",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "570a3303-04e1-4952-b164-ac0496535983",
+            "name": "Chaufa de Mariscos "
+          },
+          {
+            "id": "180347e6-6599-4d6b-9d1f-7a20927c5188",
+            "name": "Chaufa de Pescado"
+          },
+          {
+            "id": "533910d7-fe96-4e4e-b790-15602bd4cf1b",
+            "name": "Chicharrón de Pescado"
+          },
+          {
+            "id": "6c1e591f-4e06-4781-a873-fb75f8f32286",
+            "name": "Chicharrón Mixto"
+          },
+          {
+            "id": "ad393a79-284c-4f62-91e0-e8a43d48a50d",
+            "name": "Causa Acevichada"
+          },
+          {
+            "id": "22f5b113-ac28-47e1-8b4b-558e89351a72",
+            "name": "Causa de Langostinos"
+          },
+          {
+            "id": "82d80504-a7a9-4ff6-a971-a6d0c787e612",
+            "name": "Causa de Pulpo al Olivo"
+          }
+        ]
+      },
+      {
+        "id": "2669d756-38cf-4c08-8a1a-e42c0359df6c",
+        "name": "Tercer Plato",
+        "options": [
+          {
+            "id": "54a12080-9c53-467a-ba8d-2787b7890c7c",
+            "name": "Ceviche de Pescado"
+          },
+          {
+            "id": "c4c48477-178d-44f2-b41b-f34864cdf8ab",
+            "name": "Ceviche Mixto"
+          },
+          {
+            "id": "0a4cee31-fcf9-473a-aca0-da0029454718",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "d928a884-aafc-48fd-9df5-bee65b91e1e4",
+            "name": "Chaufa de Mariscos "
+          },
+          {
+            "id": "a560a8c4-30cb-4fdc-adc0-9d7bf9136c77",
+            "name": "Chaufa de Pescado"
+          },
+          {
+            "id": "3b741ccb-8009-4731-9a39-58ce0e809e60",
+            "name": "Chicharrón de Pescado"
+          },
+          {
+            "id": "5a36e37f-ec60-4f77-90a0-58702fb18243",
+            "name": "Chicharrón Mixto"
+          },
+          {
+            "id": "0bd7dc77-4edd-4a1a-8644-491ba991e3db",
+            "name": "Causa Acevichada"
+          },
+          {
+            "id": "7a8a7023-9691-460e-8cf4-bb4f13dbee5d",
+            "name": "Causa de Langostinos"
+          },
+          {
+            "id": "a2cdce80-37a8-4770-ab22-4029f72b4dfc",
+            "name": "Causa de Pulpo al Olivo"
+          }
+        ]
+      },
+      {
+        "id": "f3e6a80b-42e5-4c82-8848-b0920daaa51c",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "8cc55904-4bd3-4ca3-aacb-316ed877d1bb",
+            "name": "Nulo"
+          },
+          {
+            "id": "6ea2c147-8e16-4032-aa21-e686c054fe30",
+            "name": "Bajo"
+          },
+          {
+            "id": "f92217d8-3c20-4c06-8ac4-c39bfaf2f8f8",
+            "name": "Medio"
+          },
+          {
+            "id": "26f38129-b9c9-4786-a466-735d2bca2508",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cf2bddc9-2773-402f-9bd7-667156cc8a94"
+  },
+  {
+    "id": "b7547ddc-71fa-4538-9a6f-c86c860f945d",
+    "name": "Trío Carretillero",
+    "description": "",
+    "price": 24,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784041/fgp4hmj4ruaybrh9eyow.png",
+    "variations": [
+      {
+        "id": "15d48598-b27e-4ccd-adc7-4cead7ad12b4",
+        "name": "Arroz",
+        "options": [
+          {
+            "id": "44320744-e9ce-4224-8adf-a1597f84e7d7",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "9ef610c8-8ebb-4b92-a4d1-d5fdc5166adc",
+            "name": "Chaufa de Mariscos"
+          }
+        ]
+      },
+      {
+        "id": "96173a74-4fdc-474f-8735-cefc32678308",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "ba2cc0ff-3abe-4401-ae34-636aca2c8139",
+            "name": "Nulo"
+          },
+          {
+            "id": "1a9945eb-4f92-44b6-801f-704ff8c6dda4",
+            "name": "Bajo"
+          },
+          {
+            "id": "dcd86f44-70d1-4121-8f35-a09f05d2141a",
+            "name": "Medio"
+          },
+          {
+            "id": "beb3e1e2-d45d-40a7-a7fc-97dfb735645e",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cf2bddc9-2773-402f-9bd7-667156cc8a94"
+  },
+  {
+    "id": "972e5931-20df-4097-9a11-bfa335d6986d",
+    "name": "Trío Full",
+    "description": "",
+    "price": 34,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784290/um3wyptxnszzztzkbxrb.png",
+    "variations": [
+      {
+        "id": "9c90118a-527b-4ead-a15d-27fac0f1d45f",
+        "name": "Arroz",
+        "options": [
+          {
+            "id": "5c2e6bc7-1780-468d-b405-6bf262a15889",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "0ae5c8da-1b7a-4f04-adfe-a59212bea1e8",
+            "name": "Chaufa de Mariscos"
+          },
+          {
+            "id": "05e40485-a778-42ae-aada-d671c53dcb84",
+            "name": "Chaufa de Pescado"
+          }
+        ]
+      },
+      {
+        "id": "be77e94b-fa01-4bae-99ff-8b8fa8554911",
+        "name": "Chicharrón",
+        "options": [
+          {
+            "id": "128da2c9-fe14-4052-a4c0-eb382d458664",
+            "name": "De Pescado"
+          },
+          {
+            "id": "7537152a-b614-422e-97fc-f63a4771be6e",
+            "name": "Mixto"
+          }
+        ]
+      },
+      {
+        "id": "cbd71fbc-81b6-4db3-91e1-4953083d87f0",
+        "name": "Ceviche",
+        "options": [
+          {
+            "id": "f8c375c5-d5a5-4387-8d22-1ba2b5a4de9a",
+            "name": "De Pescado"
+          },
+          {
+            "id": "7d760eb8-3d4c-40a3-a876-fb3b1c40c8d2",
+            "name": "Mixto"
+          }
+        ]
+      },
+      {
+        "id": "46c42ac9-67b5-4a12-ad92-78cc70f11ce4",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "b647ae5b-bcb2-453b-b94b-95841bfdcc8a",
+            "name": "Nulo"
+          },
+          {
+            "id": "b685adce-f531-4197-8708-6bd03a36815f",
+            "name": "Bajo"
+          },
+          {
+            "id": "57e5dc7d-c981-4249-bd86-cb1e9b03c3dd",
+            "name": "Medio"
+          },
+          {
+            "id": "a3ce83e8-0b91-4fb3-a0a8-49b472b49b05",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "cf2bddc9-2773-402f-9bd7-667156cc8a94"
+  },
+  {
+    "id": "0b59364d-abb4-4962-9338-4dd072d1885c",
+    "name": "Menu Arrocero",
+    "description": "",
+    "price": 16,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784856/mmdecyzc3bymstptvgjj.png",
+    "variations": [
+      {
+        "id": "641b8e4b-5d22-4888-a96f-a42953be9779",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "3fae69da-d6d3-418a-b8dc-b0c07bff3639",
+            "name": "Nulo"
+          },
+          {
+            "id": "5af091de-a753-45fe-8ebb-9344b400d164",
+            "name": "Bajo"
+          },
+          {
+            "id": "781f2376-9281-4a39-aa4d-3d97b6a3342c",
+            "name": "Medio"
+          },
+          {
+            "id": "796899a6-3a0c-4210-a75c-289e787dbab9",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "21347461-41aa-4f3d-b714-da7c8e8b8dfe"
+  },
+  {
+    "id": "4a39bb35-9cee-4923-8207-51acf334b05b",
+    "name": "Menú Chicharronero",
+    "description": "",
+    "price": 14,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784816/beoudw3g01aiwq2jsmpy.png",
+    "variations": [
+      {
+        "id": "dce28abf-04e3-4798-aa50-6de7d3203624",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "f39062db-31f1-4577-80f3-87ce029f11fd",
+            "name": "Nulo"
+          },
+          {
+            "id": "64214493-a0c5-4af8-af7c-9458b6f33dd3",
+            "name": "Bajo"
+          },
+          {
+            "id": "d9e3e90e-c06d-4b77-ace2-aff3bc3ef74a",
+            "name": "Medio"
+          },
+          {
+            "id": "7c363a90-7776-49ff-b355-925b6dbafd2d",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "21347461-41aa-4f3d-b714-da7c8e8b8dfe"
+  },
+  {
+    "id": "9e12d6f1-2582-4e24-821c-ade198236d5f",
+    "name": "Ronda Capitán",
+    "description": "Ceviche de Pescado + Chicharrón de Pescado o Mixto + Arroz con\nMariscos o Chaufa de Mariscos + Causa acevichada o de Langostinos o de Pulpo al Olivo",
+    "price": 59,
+    "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784891/rrwwnf4zfgzcpnu6htpx.png",
+    "variations": [
+      {
+        "id": "fa15887e-888c-4be1-a032-b15c0d4cbf6a",
+        "name": "Ceviche",
+        "options": [
+          {
+            "id": "9f80cb90-21dc-4ea7-bcf4-181dc045320f",
+            "name": "De Pescado"
+          },
+          {
+            "id": "700facbf-0cbd-4db5-8fa7-7f8f905e286b",
+            "name": "Mixto"
+          }
+        ]
+      },
+      {
+        "id": "1397ad97-9973-427a-bf62-ad9c371d24b1",
+        "name": "Chicharrón",
+        "options": [
+          {
+            "id": "11342e89-c62d-4a3d-91a4-1bde77bda05b",
+            "name": "De Pescado"
+          },
+          {
+            "id": "471f36c8-7022-48a2-9b5e-91762801822e",
+            "name": "Mixto"
+          }
+        ]
+      },
+      {
+        "id": "a759016e-8861-4d63-8579-5979b0f496fc",
+        "name": "Arroz",
+        "options": [
+          {
+            "id": "0a6678d3-ed34-45d2-b79d-c01a2d227783",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "b9322f1d-33bc-480e-adda-67acd9ae9514",
+            "name": "Chaufa de Mariscos"
+          },
+          {
+            "id": "813888ce-0560-4fcc-ae84-5d1339a2c25a",
+            "name": "Chaufa de Pescado"
+          }
+        ]
+      },
+      {
+        "id": "20c1eb34-891e-48a3-8151-bf6a60604a00",
+        "name": "Causa",
+        "options": [
+          {
+            "id": "4bb00314-fb94-4d79-8bca-539fbc347e3b",
+            "name": "Acevichada"
+          },
+          {
+            "id": "78d19e36-ba56-42f1-9416-757956946a31",
+            "name": "De Langostinos"
+          },
+          {
+            "id": "66a9b6b7-c8fd-491f-a168-7161c2e6ebbf",
+            "name": "De Pulpo al Olivo"
+          }
+        ]
+      },
+      {
+        "id": "b51adab8-42f1-4b8f-b5eb-ab64543e7086",
+        "name": "Picante",
+        "options": [
+          {
+            "id": "6497756a-e30a-49d1-b270-989e5548c1ec",
+            "name": "Nulo"
+          },
+          {
+            "id": "96cf04e6-58b4-494e-bda4-7ab7d15c6992",
+            "name": "Bajo"
+          },
+          {
+            "id": "c352820b-b3f9-4478-9550-6177884c9edc",
+            "name": "Medio"
+          },
+          {
+            "id": "d4aeb2e2-d91c-404d-a6fa-fad9f2309a9d",
+            "name": "Alto"
+          }
+        ]
+      }
+    ],
+    "category": [
+      {
+        "name": "Entradas"
+      }
+    ],
+    "categoryId": "fd79ea05-5036-4bf8-b189-f331ec53e8c4"
+  }
+]

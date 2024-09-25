@@ -1,0 +1,43 @@
+[
+  {
+    "id": "b70368de-6508-4639-8ca3-949fb17a9c24",
+    "name": "Salón",
+    "tables": [
+      {
+        "id": "2f6c2c0c-94be-4c39-8686-3827da391141",
+        "number": "1",
+        "floorId": "b70368de-6508-4639-8ca3-949fb17a9c24"
+      },
+      {
+        "id": "654e1dda-f88f-43d9-a849-794cff6f19d2",
+        "number": "2",
+        "floorId": "b70368de-6508-4639-8ca3-949fb17a9c24"
+      },
+      {
+        "id": "68eb5abe-c2ea-43dc-ad5e-8ca88c7b9217",
+        "number": "3",
+        "floorId": "b70368de-6508-4639-8ca3-949fb17a9c24"
+      },
+      {
+        "id": "fcb29458-168c-4032-bf58-7b0a0f329339",
+        "number": "4",
+        "floorId": "b70368de-6508-4639-8ca3-949fb17a9c24"
+      },
+      {
+        "id": "43c316ef-64fa-4fa1-9b47-3ad2265ad839",
+        "number": "5",
+        "floorId": "b70368de-6508-4639-8ca3-949fb17a9c24"
+      },
+      {
+        "id": "48b57d18-9ab8-4c8c-a2c5-c0de7378c350",
+        "number": "6",
+        "floorId": "b70368de-6508-4639-8ca3-949fb17a9c24"
+      },
+      {
+        "id": "d4d80d7a-b8f1-48b9-93b0-3a2e2ec0017d",
+        "number": "7",
+        "floorId": "b70368de-6508-4639-8ca3-949fb17a9c24"
+      }
+    ]
+  }
+]
