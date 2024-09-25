@@ -12,7 +12,7 @@
     "id": "928b147e-3f90-41ac-b3fc-554bcbf0b66a",
     "name": "Dúos",
     "products": {
-      "count": 2
+      "count": 4
     }
   },
   {
@@ -20,7 +20,7 @@
     "id": "cf2bddc9-2773-402f-9bd7-667156cc8a94",
     "name": "Tríos",
     "products": {
-      "count": 2
+      "count": 3
     }
   },
   {
@@ -28,7 +28,7 @@
     "id": "fd79ea05-5036-4bf8-b189-f331ec53e8c4",
     "name": "Combos",
     "products": {
-      "count": 2
+      "count": 1
     }
   },
   {
@@ -36,7 +36,7 @@
     "id": "e00dd92a-8f8e-4e6c-b546-22b1d3304b34",
     "name": "Bebidas",
     "products": {
-      "count": 2
+      "count": 3
     }
   },
   {
@@ -44,7 +44,7 @@
     "id": "3b9383c2-c043-45b7-92ac-d2c30b3ef96f",
     "name": "Gaseosas y Agua",
     "products": {
-      "count": 2
+      "count": 3
     }
   },
   {
@@ -52,7 +52,7 @@
     "id": "d966dcac-e941-4963-90d1-a593c6b8de8a",
     "name": "Entradas",
     "products": {
-      "count": 2
+      "count": 12
     }
   },
   {
@@ -60,7 +60,7 @@
     "id": "81cea6eb-aad2-40de-ae59-cdafcd02c062",
     "name": "Ceviches",
     "products": {
-      "count": 2
+      "count": 5
     }
   },
   {
@@ -68,7 +68,7 @@
     "id": "cc4083fb-ba0b-4c35-a680-52681bc9feb2",
     "name": "Chicharrones",
     "products": {
-      "count": 2
+      "count": 6
     }
   },
   {
@@ -76,7 +76,7 @@
     "id": "da768af5-8257-46f6-bf07-aaeeab7280eb",
     "name": "Arroces",
     "products": {
-      "count": 2
+      "count": 3
     }
   },
   {
@@ -84,7 +84,7 @@
     "id": "d84b0894-7804-42b1-86aa-9cbe06b2359e",
     "name": "Calientes",
     "products": {
-      "count": 2
+      "count": 5
     }
   },
   {
@@ -92,7 +92,7 @@
     "id": "56d6e249-ddf2-4c45-9567-96579af33a2f",
     "name": "Guarniciones",
     "products": {
-      "count": 2
+      "count": 3
     }
   },
   {
@@ -100,7 +100,7 @@
     "id": "c45c57c1-7480-4eb9-b008-1d83257599bf",
     "name": "Cervezas",
     "products": {
-      "count": 2
+      "count": 6
     }
   }
 ]
