@@ -20,7 +20,7 @@ export default async function OrderMenuProductPage({ params }: Props) {
       <OrderMenuNav categories={ categories }/>
     </div>
     <div className="flex flex-1 flex-col p-4 md:p-6">
-      <OrderProductDetail product={ product! }/>
+      <OrderProductDetail product={ product }/>
     </div>
     </>
   )
