@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import '@fontsource-variable/inter'
+import { ToastNotification } from '@/components'
 import './globals.css'
 import { OrderForm, OrderHeader, OrderSummary } from './components'
 
@@ -23,7 +24,7 @@ export default function RootLayout({  children }: Readonly<{ children: React.Rea
             <OrderSummary/>
           </section>
           <OrderForm/>
-          {/* <ToastNotification/> */}
+          <ToastNotification/>
         </main>
       </body>
     </html>

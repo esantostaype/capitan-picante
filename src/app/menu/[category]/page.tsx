@@ -10,18 +10,6 @@ interface Props {
   }
 }
 
-export async function generateStaticParams() {
-  const categories: Category[] = categoriesData
-
-  const staticCategories = categories.map((category) => ({
-    category: category.id
-  }))
-
-  return staticCategories.map(({ category }) => ({
-    category: category
-  }))
-}
-
 export default function OrderMenuCategoryPage({ params }: Props) {
   const products: Product[] = productsData.filter(
     (product) => product.categoryId === params.category

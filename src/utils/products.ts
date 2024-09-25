@@ -14,7 +14,7 @@ export const getVariantPrice = ( product: Product, selectedVariantWithPrice: Sel
     )
   )
 
-  if (variation && variation.hasPrice) {
+  if ( variation ) {
     const selectedOption = variation.options.find(option => option.name === selectedVariantWithPrice[ variation.name ])
     return selectedOption ? selectedOption.price || 0 : product.price
   }
@@ -64,7 +64,6 @@ export const orderVariants = (
 
 export const getMinVariantPrice = ( product: Product ): number | undefined => {
   const minVariantPrice = product?.variations
-    .filter(variation => variation?.hasPrice)
     .flatMap(variation => variation?.options.map(option => option?.price))
     .reduce((min, price) => price! < min! ? price : min, Infinity)
 

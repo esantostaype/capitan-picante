@@ -1,6 +1,5 @@
 import React, { forwardRef } from 'react'
 import { Product, Client, OrderType, orderTypeTranslations } from '@/interfaces'
-import { useRestaurantStore } from '@/store/global-store'
 import { formatCurrency } from '@/utils';
 
 interface Props {
@@ -17,13 +16,11 @@ interface Props {
 }
 
 export const InvoicePrint = forwardRef<HTMLDivElement, Props>(({ orderData }, ref) => {
-  
-  const { restaurant } = useRestaurantStore()
 
   return (
     <div ref={ref} className="uppercase font-jetbrains text-base w-[105mm] text-black">
       <div className="mb-3 text-center">        
-        <h2 className="leading-none text-gray600">Restify/@{ restaurant?.name }</h2>
+        <h2 className="leading-none text-gray600">Capitán Picante</h2>
         <h1 className="text-2xl font-bold leading-none mt-2 mb-1">Comanda #{ parseInt( orderData.orderNumber ) }</h1>
         <h2 className="leading-none">Mesero: Pedro Ramirez</h2>
       </div>

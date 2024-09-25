@@ -28,6 +28,7 @@ export const OrderForm = () => {
   const total = useMemo(() => order.reduce(( total, item ) => total + ( ( item.quantity || 0 ) * item.price ), 0), [ order ])
   const { activeModalPage, closeModalPage, closeModal } = useUiStore()
   const [ clientSelected, setClientSelected ] = useState<Client | null>( null )
+  const [ isPrinted, setIsPrinted ] = useState(false)
 
   const {
     selectedFloorId,
@@ -72,7 +73,13 @@ export const OrderForm = () => {
 
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-    onAfterPrint: () => closeModal(true),
+    onAfterPrint: () => {
+      setIsPrinted( true )
+      closeModal( true )
+    },
+    onBeforeGetContent: () => {
+      setIsPrinted( false )
+    }
   })
   
   const handleSubmit = async () => {
@@ -86,14 +93,20 @@ export const OrderForm = () => {
       toast.error('Por favor, selecciona un ambiente')
       return
     }
-    setSelectedFloorName('')
-    setSelectedFloorId('')
-    setSelectedTableId('')
-    setSelectedTableNumber('')
     handlePrint()
-    closeModalPage()
-    clearOrder()
   }
+
+  useEffect(() => {
+    if ( isPrinted ) {
+      clearOrder()
+      setSelectedFloorName('')
+      setSelectedFloorId('')
+      setSelectedTableId('')
+      setSelectedTableNumber('')
+      closeModalPage()
+      setIsPrinted( false )
+    }
+  }, [ isPrinted, clearOrder, setSelectedFloorName, setSelectedFloorId, setSelectedTableId, setSelectedTableNumber, closeModalPage ])
   
   return (
     <ModalPage title="Órden" isOpen={ activeModalPage } backText='Seguir agregando productos'>
@@ -104,7 +117,7 @@ export const OrderForm = () => {
         <Form className="flex flex-col flex-1 overflow-y-auto">
           <ModalBody>
             <div className='flex flex-col gap-6 md:gap-8 lg:gap-10 xl:gap-12'>
-              <div>
+              {/* <div>
                 <h3 className="text-lg md:text-2xl text-gray500 font-bold mb-2 md:mb-4">Cliente</h3>                  
                 <div className='flex flex-col md:grid md:grid-cols-2 gap-6'>
                   <div className="col-span-1">
@@ -120,7 +133,7 @@ export const OrderForm = () => {
                     <TextField placeholder='Correo Electrónico' type='text' name='client.email'/>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div>
                 <h3 className="text-lg md:text-2xl text-gray500 font-bold mb-2 md:mb-4">Tipo de Órden</h3>

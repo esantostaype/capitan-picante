@@ -4,11 +4,7 @@ import { useUiStore } from '@/store/ui-store'
 import Image from 'next/image'
 import Link from 'next/link'
 
-interface Props {
-  fullName?: string
-}
-
-export const OrderHeader = ({ fullName }: Props) => {
+export const OrderHeader = () => {
   
   const pathname = usePathname()
   const { openOrderSummary, closeOrderSummary, activeOrderSummary, closeModal } = useUiStore()
@@ -65,7 +61,7 @@ export const OrderHeader = ({ fullName }: Props) => {
           </ul>
         </nav>
         <div className="hidden md:block">
-          Meser@: <strong>{ fullName || 'Varios' }</strong>
+          Meser@: <strong>Vanessa</strong>
         </div>
       </div>
     </header>

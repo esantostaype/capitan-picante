@@ -68,7 +68,7 @@ export const OrderSummary = () => {
           <>
           <div className="bg-surface border-b border-b-gray50 p-4 md:p-6 pb-2 sticky top-0 z-30">
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-lg font-semibold">Orden 2</h3>
+              <h3 className="text-lg font-semibold">Orden</h3>
             </div>
             <div className="flex justify-between items-center font-bold">
               <div>Item</div>

@@ -43,7 +43,7 @@ export const OrderPrint = forwardRef<HTMLDivElement, Props>(({ orderData }, ref)
         </div>
         <h1 className="text-2xl font-bold leading-none mt-2 mb-1 flex gap-2 items-center">
           <span className="flex-1 font-normal text-base overflow-hidden w-1 text-nowrap"> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </span>
-          <span>N° 2</span>
+          <span>Órden</span>
           <span className="flex-1 font-normal text-base overflow-hidden w-1 text-nowrap"> - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </span>
         </h1>
       </div>
@@ -52,11 +52,11 @@ export const OrderPrint = forwardRef<HTMLDivElement, Props>(({ orderData }, ref)
           <div>
             <div>Meser@: <span className="font-semibold">Vanessa</span></div>
             <div>Tipo: <span className="font-semibold">{ orderTypeTranslations[ orderData.orderType ] }</span></div>            
-            { orderData.client && (
+            {/* { orderData.client && (
               <div>
                 Cliente: <span>orderData.client</span>
               </div>
-            )}
+            )} */}
           </div>
           <div className="text-right font-semibold">
             <div>Mesa: { orderData.table }</div>
