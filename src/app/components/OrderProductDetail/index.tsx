@@ -7,7 +7,6 @@ import { toast } from 'react-toastify'
 import { formatCurrency, generateUniqueId, getMinVariantPrice, getVariantPrice } from '@/utils'
 import { useUiStore } from '@/store/ui-store'
 import { useEffect, useState } from 'react'
-import { useSearchParams } from 'next/navigation'
 import { OrderProductDetailVariantSelector } from './OrderProductDetailVariantSelector'
 import { Formik, Form } from 'formik'
 
@@ -17,11 +16,8 @@ interface Props {
 
 export const OrderProductDetail = ({ product }: Props) => {
 
-  const searchParams = useSearchParams()
-  const productId = searchParams.get('p')
-
   const addToOrder = useOrderStore(( state ) => state.addToOrder )
-  const { activeModal, openModal, closeModal } = useUiStore()
+  const { activeModal, closeModal } = useUiStore()
   const [ quantity, setQuantity ] = useState<number>(1)
 
   interface FormValues {
@@ -41,12 +37,6 @@ export const OrderProductDetail = ({ product }: Props) => {
   useEffect(() => {
     setQuantity(1)
   }, [ activeModal ])
-
-  useEffect(() => {
-    if ( product?.id === productId ) {
-      openModal()
-    }
-  }, [ productId, openModal, product?.id ])
 
   const handleAddToOrder = ( values : FormValues ) => {
 
