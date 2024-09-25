@@ -37,10 +37,10 @@ export const OrderSummary = () => {
       }
       acc[item.category.name].items.push(item);
       return acc;
-    }, {} as Record<string, { category: { name: string, orderNumber?: number }, items: Product[] }>)
+    }, {} as Record<string, { category: { name: string, orderNumber: number }, items: Product[] }>)
   
     return Object.values(grouped).sort((a, b) => {
-      return ( a.category.orderNumber || 0) - ( b.category.orderNumber || 0 )
+      return ( a.category.orderNumber ) - ( b.category.orderNumber  )
     });
   }, [ order ])
 

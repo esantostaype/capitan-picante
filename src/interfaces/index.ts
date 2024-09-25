@@ -75,7 +75,7 @@ export interface Product {
   subtotal?: number
   category: {
     name: string
-    orderNumber?: number
+    orderNumber: number
   }
 }
 
