@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import { OrderItem } from '@/interfaces'
+import { Product } from '@/interfaces'
 import { formatCurrency } from '@/utils'
 import { OrderSummaryCounter } from './OrderSummaryCounter'
 
 interface Props {
-  item: OrderItem
+  item: Product
 }
 
 export const OrderSummaryItem = ({ item }: Props ) => {
@@ -26,7 +26,7 @@ export const OrderSummaryItem = ({ item }: Props ) => {
             <div className="text-gray500">{ formatCurrency( item.price ) }</div>
           </div>
         </div>
-        <div className='font-semibold flex-[0_0_5rem] text-right'>{ formatCurrency( item.subtotal ) }</div>  
+        <div className='font-semibold flex-[0_0_5rem] text-right'>{ formatCurrency( item.subtotal || 0 ) }</div>  
       </div>
       <div className="flex flex-col gap-4 pl-14 mt-2">
         <div>
@@ -37,16 +37,8 @@ export const OrderSummaryItem = ({ item }: Props ) => {
               ))}
             </div>
           )}
-          { item.selectedAdditionals && Object.entries( item.selectedAdditionals )
-            .filter(([_, quantity]) => quantity > 0)
-            .map(([additionalName, quantity]) => (
-              <div key={ additionalName } className="text-gray500 text-xs">
-                { quantity }x <span className="font-semibold">{ additionalName }</span>
-              </div>
-            ))
-          }
         </div>
-        <OrderSummaryCounter item={ item } currentValue={ item.quantity } />
+        <OrderSummaryCounter item={ item } currentValue={ item.quantity || 0 } />
       </div> 
     </li>
   )

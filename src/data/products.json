@@ -29,11 +29,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -66,11 +66,11 @@
         ]
       }
     ],
-    "category": [
+    "category":
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -99,11 +99,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -136,11 +136,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -173,11 +173,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -187,11 +187,11 @@
     "price": 26,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780738/r694u92stdrp2ecvjcju.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -224,11 +224,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -261,11 +261,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -298,11 +298,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -335,11 +335,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -368,11 +368,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -382,11 +382,11 @@
     "price": 12,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726780719/fogprxgceguroeu0aj8y.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d966dcac-e941-4963-90d1-a593c6b8de8a"
   },
   {
@@ -419,11 +419,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
   },
   {
@@ -456,11 +456,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
   },
   {
@@ -493,11 +493,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
   },
   {
@@ -530,11 +530,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
   },
   {
@@ -567,11 +567,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "81cea6eb-aad2-40de-ae59-cdafcd02c062"
   },
   {
@@ -581,11 +581,11 @@
     "price": 34,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781190/urwi1utzyujcrymub6o9.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
   },
   {
@@ -595,11 +595,11 @@
     "price": 39,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781160/dnxiit6wufdfx8w9108o.jpg",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
   },
   {
@@ -609,11 +609,11 @@
     "price": 29,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781110/uaargbbbcqottga0ms5c.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
   },
   {
@@ -623,11 +623,11 @@
     "price": 28,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781067/ocrqbkyuybvfnlu2zaef.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
   },
   {
@@ -637,11 +637,11 @@
     "price": 16,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781209/knhzowzxikxp1tvvbsme.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
   },
   {
@@ -651,11 +651,11 @@
     "price": 42,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781226/punje4jwfdbkkixswcyv.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cc4083fb-ba0b-4c35-a680-52681bc9feb2"
   },
   {
@@ -665,11 +665,11 @@
     "price": 27,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781247/dhmvzvxjtdqvwfk7hon5.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "da768af5-8257-46f6-bf07-aaeeab7280eb"
   },
   {
@@ -679,11 +679,11 @@
     "price": 26,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781268/gp3tyrjdcvzu8tyrxbam.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "da768af5-8257-46f6-bf07-aaeeab7280eb"
   },
   {
@@ -693,11 +693,11 @@
     "price": 26,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781281/hl0ontjvk6jaxy2pajrq.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "da768af5-8257-46f6-bf07-aaeeab7280eb"
   },
   {
@@ -707,11 +707,11 @@
     "price": 29,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781455/ozn1vcqwe29hqdiy5hky.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
   },
   {
@@ -721,11 +721,11 @@
     "price": 12,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781339/lki6s6k4lzozab2e4wa1.jpg",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
   },
   {
@@ -735,11 +735,11 @@
     "price": 24,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781440/tnt2fxsv4sjuxxxeowqf.jpg",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
   },
   {
@@ -749,11 +749,11 @@
     "price": 34,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781375/mohw8vc9nhjxb5zpv725.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
   },
   {
@@ -763,11 +763,11 @@
     "price": 28,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781357/w3zrwde611hiy7ktdl0b.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "d84b0894-7804-42b1-86aa-9cbe06b2359e"
   },
   {
@@ -777,11 +777,11 @@
     "price": 4,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781473/b9vhk8kwucf23xeuvxey.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "56d6e249-ddf2-4c45-9567-96579af33a2f"
   },
   {
@@ -791,11 +791,11 @@
     "price": 9,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781530/i1dex8pl0ycvab38gcpn.jpg",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "56d6e249-ddf2-4c45-9567-96579af33a2f"
   },
   {
@@ -805,11 +805,11 @@
     "price": 6,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781489/l0luve77pwrzqoe34ono.png",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "56d6e249-ddf2-4c45-9567-96579af33a2f"
   },
   {
@@ -837,11 +837,11 @@
         "hasPrice": true
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "e00dd92a-8f8e-4e6c-b546-22b1d3304b34"
   },
   {
@@ -869,11 +869,11 @@
         "hasPrice": true
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "e00dd92a-8f8e-4e6c-b546-22b1d3304b34"
   },
   {
@@ -901,11 +901,11 @@
         "hasPrice": true
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "e00dd92a-8f8e-4e6c-b546-22b1d3304b34"
   },
   {
@@ -915,11 +915,11 @@
     "price": 3,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782065/bmzerhlposjstand3kaz.webp",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "3b9383c2-c043-45b7-92ac-d2c30b3ef96f"
   },
   {
@@ -952,11 +952,11 @@
         "hasPrice": true
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "3b9383c2-c043-45b7-92ac-d2c30b3ef96f"
   },
   {
@@ -994,11 +994,11 @@
         "hasPrice": true
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "3b9383c2-c043-45b7-92ac-d2c30b3ef96f"
   },
   {
@@ -1008,11 +1008,11 @@
     "price": 10,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782184/fawrr4gtv6x9iltsyfxp.webp",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
   },
   {
@@ -1022,11 +1022,11 @@
     "price": 12,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782269/bn7q6b8zfxhcuujkohd5.webp",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
   },
   {
@@ -1036,11 +1036,11 @@
     "price": 7,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782407/txwkuni2f4o5qu4cxffl.jpg",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
   },
   {
@@ -1050,11 +1050,11 @@
     "price": 12,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782343/sqxroffreetx4dzitamr.jpg",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
   },
   {
@@ -1064,11 +1064,11 @@
     "price": 6,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782365/ecpmr6hwg3arxlwtonup.webp",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
   },
   {
@@ -1078,11 +1078,11 @@
     "price": 10,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782209/rwtk2msy9qcbsqvpiez2.jpg",
     "variations": [],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "c45c57c1-7480-4eb9-b008-1d83257599bf"
   },
   {
@@ -1207,11 +1207,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "928b147e-3f90-41ac-b3fc-554bcbf0b66a"
   },
   {
@@ -1276,11 +1276,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "928b147e-3f90-41ac-b3fc-554bcbf0b66a"
   },
   {
@@ -1341,11 +1341,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "928b147e-3f90-41ac-b3fc-554bcbf0b66a"
   },
   {
@@ -1378,11 +1378,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "928b147e-3f90-41ac-b3fc-554bcbf0b66a"
   },
   {
@@ -1553,11 +1553,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cf2bddc9-2773-402f-9bd7-667156cc8a94"
   },
   {
@@ -1604,11 +1604,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cf2bddc9-2773-402f-9bd7-667156cc8a94"
   },
   {
@@ -1687,11 +1687,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "cf2bddc9-2773-402f-9bd7-667156cc8a94"
   },
   {
@@ -1724,11 +1724,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "21347461-41aa-4f3d-b714-da7c8e8b8dfe"
   },
   {
@@ -1761,11 +1761,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "21347461-41aa-4f3d-b714-da7c8e8b8dfe"
   },
   {
@@ -1862,11 +1862,11 @@
         ]
       }
     ],
-    "category": [
+    "category": 
       {
         "name": "Entradas"
       }
-    ],
+    ,
     "categoryId": "fd79ea05-5036-4bf8-b189-f331ec53e8c4"
   }
 ]

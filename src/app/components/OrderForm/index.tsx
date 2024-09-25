@@ -25,7 +25,7 @@ export const OrderForm = () => {
   const order = useOrderStore(( state ) => state.order )
   const setOrder = useOrderStore((state) => state.setOrder)
   const clearOrder = useOrderStore(( state ) => state.clearOrder )
-  const total = useMemo(() => order.reduce(( total, item ) => total + ( item.quantity * item.price ), 0), [ order ])
+  const total = useMemo(() => order.reduce(( total, item ) => total + ( ( item.quantity || 0 ) * item.price ), 0), [ order ])
   const { activeModalPage, closeModalPage, closeModal } = useUiStore()
   const [ clientSelected, setClientSelected ] = useState<Client | null>( null )
 
@@ -144,10 +144,15 @@ export const OrderForm = () => {
               </div>
               <div>
                 <h3 className="text-lg md:text-2xl text-gray500 font-bold mb-2 md:mb-4">Notas</h3>
-                <TextField typeField='textarea' name='notes' onChange={(e) => {
-                  setFieldValue('notes', e.target.value)
-                  setNotes(e.target.value)
-                }}/>
+                <TextField 
+                  typeField='textarea' 
+                  name='notes' 
+                  onChange={(e) => {
+                    const target = e.target as HTMLTextAreaElement
+                    setFieldValue('notes', target.value);
+                    setNotes(target.value);
+                  }}
+                />
               </div>
             </div>
           </ModalBody>

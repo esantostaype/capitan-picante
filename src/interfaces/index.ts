@@ -72,6 +72,11 @@ export interface Product {
   quantity?: number
   selectedVariations?: { [ key: string ]: string }
   notes?: string
+  subtotal?: number
+  category: {
+    name: string
+    orderNumber?: number
+  }
 }
 
 export type ProductFull = Omit<Product, ''> & {

@@ -72,14 +72,6 @@ export const InvoicePrint = forwardRef<HTMLDivElement, Props>(({ orderData }, re
                         ))}
                       </div>
                     )}
-                    { item.selectedAdditionals && Object.entries( item.selectedAdditionals )
-                      .filter(([, quantity]) => quantity > 0)
-                      .map(([additionalName, quantity]) => (
-                        <div key={ additionalName } className="mt-1 text-sm leading-4">
-                          { quantity }x <strong>{ additionalName }</strong>
-                        </div>
-                      ))
-                    }
                     {
                       item.notes &&
                       <div className="mt-1 text-sm leading-4">
@@ -91,7 +83,7 @@ export const InvoicePrint = forwardRef<HTMLDivElement, Props>(({ orderData }, re
                     { formatCurrency( item.price )}                  
                 </td>
                 <td className="align-text-top text-right py-2 text-nowrap border-b border-b-black border-dashed">
-                    { formatCurrency( item.subtotal )}                  
+                    { formatCurrency( item.subtotal || 0 )}                  
                 </td>
               </tr>
             ))}

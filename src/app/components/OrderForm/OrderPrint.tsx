@@ -1,5 +1,5 @@
 import React, { forwardRef, useMemo } from 'react'
-import { Product, Client, OrderType, orderTypeTranslations, Category } from '@/interfaces'
+import { Product, Client, OrderType, orderTypeTranslations } from '@/interfaces'
 import { format } from '@formkit/tempo'
 
 interface Props {
@@ -28,10 +28,10 @@ export const OrderPrint = forwardRef<HTMLDivElement, Props>(({ orderData }, ref)
       }
       acc[item.category.name].items.push(item);
       return acc;
-    }, {} as Record<string, { category: Category, items: Product[] }>)
+    }, {} as Record<string, { category: { name: string, orderNumber?: number }, items: Product[] }>)
   
     return Object.values(grouped).sort((a, b) => {
-      return a.category.orderNumber - b.category.orderNumber
+      return ( a.category.orderNumber || 0) - ( b.category.orderNumber || 0 )
     });
   }, [ orderData.order ])
 
@@ -91,14 +91,6 @@ export const OrderPrint = forwardRef<HTMLDivElement, Props>(({ orderData }, ref)
                           ))}
                         </div>
                       )}
-                      { item.selectedAdditionals && Object.entries( item.selectedAdditionals )
-                        .filter(([, quantity]) => quantity > 0)
-                        .map(([additionalName, quantity]) => (
-                          <div key={ additionalName } className="my-1">
-                            <span className="font-bold">{ quantity }<span className="lowercase">x</span> { additionalName }</span>
-                          </div>
-                        ))
-                      }
                       {
                         item.notes &&
                         <div className="mb-2">

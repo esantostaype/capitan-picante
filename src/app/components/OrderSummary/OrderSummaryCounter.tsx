@@ -1,15 +1,14 @@
 'use client'
 import { useOrderStore } from '@/store/order-store'
 import { IconButton } from '@/components'
-import { IconButtonShape, OrderItem, Size, Variant } from '@/interfaces'
+import { IconButtonShape, Product, Size, Variant } from '@/interfaces'
 
 interface Props {
-	item: OrderItem
+	item: Product
 	currentValue: number
 }
 
 const MAX_ITEMS = 10
-const MIN_ITEMS = 1
 
 export const OrderSummaryCounter = ({ item, currentValue }: Props) => {
 	const increaseQuantity = useOrderStore(( state ) => state.increaseQuantity )
@@ -17,12 +16,12 @@ export const OrderSummaryCounter = ({ item, currentValue }: Props) => {
   
   const handleIncrease = () => {
     if ( currentValue < MAX_ITEMS ) {
-      increaseQuantity( item.id, item.uniqueId )
+      increaseQuantity( item.id, item.uniqueId || '' )
     }
 	}
 	
 	const handleDecrease = () => {
-    decreaseQuantity( item.id, item.uniqueId )
+    decreaseQuantity( item.id, item.uniqueId || '' )
 	}
 
   return (

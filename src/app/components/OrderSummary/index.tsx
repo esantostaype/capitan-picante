@@ -5,7 +5,7 @@ import { IconButton } from '@/components'
 import { OrderSummaryItem } from '..'
 import { formatCurrency } from '@/utils'
 import { Button } from '@/components'
-import { Category, Color, IconButtonShape, Product, Size, Variant } from '@/interfaces'
+import { Color, IconButtonShape, Product, Size, Variant } from '@/interfaces'
 import { useUiStore } from '@/store/ui-store'
 
 export const OrderSummary = () => {
@@ -13,7 +13,7 @@ export const OrderSummary = () => {
   const order = useOrderStore(( state ) => state.order )
   const setOrder = useOrderStore((state) => state.setOrder)
   const clearOrder = useOrderStore(( state ) => state.clearOrder )
-  const total = useMemo(() => order.reduce(( total, item ) => total + ( item.quantity * item.price ), 0), [ order ])
+  const total = useMemo(() => order.reduce(( total, item ) => total + ( ( item.quantity || 0 ) * item.price ), 0), [ order ])
   const { openModalPage, openOrderSummary, closeOrderSummary, activeOrderSummary } = useUiStore()
 
   const subtotal = total / 1.18
@@ -37,12 +37,12 @@ export const OrderSummary = () => {
       }
       acc[item.category.name].items.push(item);
       return acc;
-    }, {} as Record<string, { category: Category, items: Product[] }>);
+    }, {} as Record<string, { category: { name: string, orderNumber?: number }, items: Product[] }>)
   
     return Object.values(grouped).sort((a, b) => {
-      return a.category.orderNumber - b.category.orderNumber;
+      return ( a.category.orderNumber || 0) - ( b.category.orderNumber || 0 )
     });
-  }, [order])
+  }, [ order ])
 
   const handleContinue = () => {
     openModalPage()
@@ -78,8 +78,8 @@ export const OrderSummary = () => {
           <div className="flex-1 relative z-20">
             <ul className="flex flex-col">
               { groupedOrder.map(({ category, items }) => (
-                <li key={category.id} className="border-b border-b-gray50 p-4 md:p-6 last:border-b-transparent">
-                  <h4 className="uppercase font-semibold mb-4 md:mb-6 text-gray600">{category.name}</h4>
+                <li key={ category.name } className="border-b border-b-gray50 p-4 md:p-6 last:border-b-transparent">
+                  <h4 className="uppercase font-semibold mb-4 md:mb-6 text-gray600">{ category.name }</h4>
                   <ul className="flex flex-col gap-4 md:gap-6">
                     { items.map(item => (
                       <OrderSummaryItem key={item.uniqueId} item={item} />
