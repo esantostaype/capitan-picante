@@ -1788,6 +1788,22 @@
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784856/mmdecyzc3bymstptvgjj.png",
     "variations": [
       {
+        "id": "651b8e4b-5d22-4888-b96f-a42953be9776",
+        "name": "Arroz",
+        "hasPrice": false,
+        "options": [
+          {
+            "id": "3fae69da-d673-418a-b8dc-a0c07bff3639",
+            "name": "Arroz con Mariscos"
+          },
+          {
+            "id": "4af091de-a753-45fe-8ebb-9344b400d164",
+            "name": "Chaufa de Mariscos"
+          }
+        ]
+      },
+      
+      {
         "id": "641b8e4b-5d22-4888-a96f-a42953be9779",
         "name": "Picante",
         "hasPrice": false,
