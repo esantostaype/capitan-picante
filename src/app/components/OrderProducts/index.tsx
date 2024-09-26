@@ -10,7 +10,6 @@ interface Props {
 }
 
 export const OrderProducts = ({ categoryName, products }: Props) => {
-  console.log({ products })
   return (
     <>
       <div className="h-16 xl:h-auto px-4 xl:px-0 fixed md:hidden flex items-center gap-2 top-0 left-0 w-full xl:relative z-50 bg-surface border-b border-b-gray50 xl:border-b-0 xl:bg-transparent xl:mb-4">

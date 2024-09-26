@@ -100,6 +100,7 @@ export type ProductFull = Omit<Product, ''> & {
 export interface ProductVariation {
   id: string
   name: string
+  hasPrice?: boolean
   options: Array<{
     id: string;
     name: string

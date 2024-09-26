@@ -8,7 +8,13 @@ export const metadata: Metadata = {
   title: 'Capitán Picante'
 }
 
-export default function RootLayout({  children }: Readonly<{ children: React.ReactNode; }>) {
+export default function RootLayout({
+  children,
+  modal
+}: {
+  children: React.ReactNode
+  modal: React.ReactNode
+}) {
   return (
     <html lang="es">
       <body suppressHydrationWarning={ true } className="bg-background text-foreground">
@@ -24,6 +30,7 @@ export default function RootLayout({  children }: Readonly<{ children: React.Rea
           </section>
           <OrderForm/>
           <ToastNotification/>
+          { modal }
         </main>
       </body>
     </html>

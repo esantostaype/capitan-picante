@@ -9,13 +9,14 @@ import { useUiStore } from '@/store/ui-store'
 import { useEffect, useState } from 'react'
 import { OrderProductDetailVariantSelector } from './OrderProductDetailVariantSelector'
 import { Formik, Form } from 'formik'
+import { Suspense } from 'react'
 
 interface Props {
-  product?: Product,
+  product?: Product
   productId?: string
 }
 
-export const OrderProductDetail = ({ product, productId }: Props) => {
+export const OrderProductDetailContent = ({ product, productId }: Props) => {
 
   const addToOrder = useOrderStore(( state ) => state.addToOrder )
   const { activeModal, openModal, closeModal } = useUiStore()
@@ -81,6 +82,7 @@ export const OrderProductDetail = ({ product, productId }: Props) => {
   const hasVariations = product?.variations.length !== 0
 
   return (
+    <Suspense>
       <Modal withBackRoute isOpen={ activeModal } size={ Size._5XL }>
         <ModalHeader>
           <div>
@@ -190,5 +192,6 @@ export const OrderProductDetail = ({ product, productId }: Props) => {
             )}
           </Formik>
       </Modal>
+    </Suspense>
   )
 }

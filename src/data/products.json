@@ -9,6 +9,7 @@
       {
         "id": "c90855cb-12cb-4630-a476-bf6a6fa48e2c",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "7bc94bfb-9d9f-43be-bc31-1e5aba9fb012",
@@ -47,6 +48,7 @@
       {
         "id": "688be604-faf4-4752-906e-79822af519b6",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "53547548-8e17-47bd-b2d3-10c3de69c86e",
@@ -85,6 +87,7 @@
       {
         "id": "27dcca3e-4692-4248-8041-1390c418ea92",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "5d9ccb90-21e2-4f07-b1c4-7448aa2915b4",
@@ -119,6 +122,7 @@
       {
         "id": "8c998f03-1290-4dcc-a722-94e12af89b31",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "1d04016a-3cd6-44c3-8b1e-63befda60c61",
@@ -157,6 +161,7 @@
       {
         "id": "3fbe57cd-5279-478b-86a6-5fb7b209b9b6",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "39fce382-1a1e-4466-975d-e006127c7f2d",
@@ -210,6 +215,7 @@
       {
         "id": "5dd27f16-36d8-425e-b943-f8debcba35b0",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "03eaa3d3-1877-4e3f-9fc0-305f740c6fda",
@@ -248,6 +254,7 @@
       {
         "id": "bb356580-22f1-4c2c-9e2f-c2f03512df8e",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "1b42eccc-a6ab-4665-b2e1-5c94bbd400d3",
@@ -286,6 +293,7 @@
       {
         "id": "aa2fce90-8d55-4aaa-9b85-94feda3ba282",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "d6aaf570-dacc-495f-968c-0395a9a90f6d",
@@ -324,6 +332,7 @@
       {
         "id": "e227b9c3-b095-424b-81bd-44651eb57b63",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "80d4f0ad-2435-41a9-a4f7-639de3c5e78a",
@@ -411,6 +420,7 @@
       {
         "id": "fa07aa7f-85f9-4db5-b530-7edd387a2dd1",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "ea1e24ea-3e95-4f1e-9a68-5bdd5e2a0388",
@@ -449,6 +459,7 @@
       {
         "id": "b4d68a30-1511-4d0f-980c-b2792353b59e",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "e2b6bb92-9f49-4808-b98d-098ae82eb98d",
@@ -487,6 +498,7 @@
       {
         "id": "cc534f5c-615c-4072-862c-ce61662396d9",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "9ff4e6ce-a25a-4038-b1ec-622196cb0060",
@@ -525,6 +537,7 @@
       {
         "id": "3033b1bc-3888-4bc7-bf92-3d6e716d899f",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "186f8e4f-cc97-4bf9-a0f0-664ebe3b7dec",
@@ -563,6 +576,7 @@
       {
         "id": "548fbb60-4fab-402d-8cc4-29b5b9cd3661",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "6b471498-dc1a-4281-ac03-47ac4e8a341c",
@@ -856,6 +870,7 @@
       {
         "id": "24044f1b-869d-4766-a3f3-564cf4a25d83",
         "name": "Tamaño",
+        "hasPrice": true,
         "options": [
           {
             "id": "69a5d2ab-c136-4cdf-9060-814853c987cb",
@@ -888,6 +903,7 @@
       {
         "id": "42d8ca23-ad6e-4af4-984c-42e976bc12f8",
         "name": "Tamaño",
+        "hasPrice": true,
         "options": [
           {
             "id": "2604bd3b-94f4-4949-9fe0-99a1017adc32",
@@ -920,6 +936,7 @@
       {
         "id": "c7109420-a511-4276-ae7c-1d58bb406293",
         "name": "Tamaño",
+        "hasPrice": true,
         "options": [
           {
             "id": "fc8d6654-b842-472f-ba0d-e22ba6db7911",
@@ -967,6 +984,7 @@
       {
         "id": "3d6d9101-835a-4ac7-9190-10ea54107e82",
         "name": "Tamaño",
+        "hasPrice": true,
         "options": [
           {
             "id": "e7828ebc-eafe-41ac-8c62-e5f36716adf2",
@@ -1004,6 +1022,7 @@
       {
         "id": "03cfe9c4-3ac4-4c5d-a853-5fcb77b06496",
         "name": "Tamaño",
+        "hasPrice": true,
         "options": [
           {
             "id": "6d7b0c79-96d9-43b4-921b-203e9ed472d8",
@@ -1136,6 +1155,7 @@
       {
         "id": "b6324a06-b2f2-4c1f-8e6a-1b46fb5e305e",
         "name": "Primer Plato",
+        "hasPrice": false,
         "options": [
           {
             "id": "7da79b33-0c44-4785-a6b9-c7feb50e774e",
@@ -1182,6 +1202,7 @@
       {
         "id": "f93fc919-0c63-4a10-8ad7-2ebb4735420d",
         "name": "Segundo Plato",
+        "hasPrice": false,
         "options": [
           {
             "id": "6aedebd3-442b-4f23-a650-f34fef73cd95",
@@ -1228,6 +1249,7 @@
       {
         "id": "5bb47db9-b91c-4f7c-b50b-20012687b95f",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "b19ccf89-9e3c-415f-b431-59f584085ab5",
@@ -1266,6 +1288,7 @@
       {
         "id": "11b9f984-5f2a-4852-964b-057c88a79f6b",
         "name": "Arroz",
+        "hasPrice": false,
         "options": [
           {
             "id": "c9cf10d4-b956-4628-9112-4e90037e72f5",
@@ -1284,6 +1307,7 @@
       {
         "id": "f846bbcd-b908-41d1-bfb3-ceef2867949b",
         "name": "Ceviche",
+        "hasPrice": false,
         "options": [
           {
             "id": "68711a6f-59eb-43d2-9c48-a923727c75cf",
@@ -1298,6 +1322,7 @@
       {
         "id": "548460a8-e8ad-4157-b151-e834c85fd807",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "8fb2a741-00fb-4054-b2e9-4d613d347c3a",
@@ -1336,6 +1361,7 @@
       {
         "id": "7ba9c4b5-17c2-439d-b225-954e2998c55a",
         "name": "Ceviche",
+        "hasPrice": false,
         "options": [
           {
             "id": "3b8fbb5d-2d62-4e95-bb1e-0aefa6d7da23",
@@ -1350,6 +1376,7 @@
       {
         "id": "d0568827-1338-4765-9bab-e33353fe038a",
         "name": "Chicharrón",
+        "hasPrice": false,
         "options": [
           {
             "id": "1f6e792d-9b23-4f8c-a7b6-481a11a3b279",
@@ -1364,6 +1391,7 @@
       {
         "id": "1ace3888-a499-432d-ba52-8f31e2fcded7",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "7a2c7e71-2b1d-4f07-9c24-4582addfa46a",
@@ -1402,6 +1430,7 @@
       {
         "id": "ca7aa737-5d99-4e58-baf9-5b3c66542402",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "b050a7bb-cc33-4116-a002-9150448ba8cb",
@@ -1440,6 +1469,7 @@
       {
         "id": "9632f6a5-2e46-4c16-944a-043c06ea16a4",
         "name": "Primer Plato",
+        "hasPrice": false,
         "options": [
           {
             "id": "2d67828a-c5bf-4fd9-9b5b-1b3381b676fb",
@@ -1486,6 +1516,7 @@
       {
         "id": "ef905003-93a5-4166-bfe1-2757109ae019",
         "name": "Segundo Plato",
+        "hasPrice": false,
         "options": [
           {
             "id": "7a01a456-812e-41a1-8dbb-1c1209264083",
@@ -1532,6 +1563,7 @@
       {
         "id": "2669d756-38cf-4c08-8a1a-e42c0359df6c",
         "name": "Tercer Plato",
+        "hasPrice": false,
         "options": [
           {
             "id": "54a12080-9c53-467a-ba8d-2787b7890c7c",
@@ -1578,6 +1610,7 @@
       {
         "id": "f3e6a80b-42e5-4c82-8848-b0920daaa51c",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "8cc55904-4bd3-4ca3-aacb-316ed877d1bb",
@@ -1616,6 +1649,7 @@
       {
         "id": "15d48598-b27e-4ccd-adc7-4cead7ad12b4",
         "name": "Arroz",
+        "hasPrice": false,
         "options": [
           {
             "id": "44320744-e9ce-4224-8adf-a1597f84e7d7",
@@ -1630,6 +1664,7 @@
       {
         "id": "96173a74-4fdc-474f-8735-cefc32678308",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "ba2cc0ff-3abe-4401-ae34-636aca2c8139",
@@ -1668,6 +1703,7 @@
       {
         "id": "9c90118a-527b-4ead-a15d-27fac0f1d45f",
         "name": "Arroz",
+        "hasPrice": false,
         "options": [
           {
             "id": "5c2e6bc7-1780-468d-b405-6bf262a15889",
@@ -1686,6 +1722,7 @@
       {
         "id": "be77e94b-fa01-4bae-99ff-8b8fa8554911",
         "name": "Chicharrón",
+        "hasPrice": false,
         "options": [
           {
             "id": "128da2c9-fe14-4052-a4c0-eb382d458664",
@@ -1714,6 +1751,7 @@
       {
         "id": "46c42ac9-67b5-4a12-ad92-78cc70f11ce4",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "b647ae5b-bcb2-453b-b94b-95841bfdcc8a",
@@ -1752,6 +1790,7 @@
       {
         "id": "641b8e4b-5d22-4888-a96f-a42953be9779",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "3fae69da-d6d3-418a-b8dc-b0c07bff3639",
@@ -1790,6 +1829,7 @@
       {
         "id": "dce28abf-04e3-4798-aa50-6de7d3203624",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "f39062db-31f1-4577-80f3-87ce029f11fd",
@@ -1824,10 +1864,11 @@
     "description": "Ceviche de Pescado + Chicharrón de Pescado o Mixto + Arroz con\nMariscos o Chaufa de Mariscos + Causa acevichada o de Langostinos o de Pulpo al Olivo",
     "price": 59,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784891/rrwwnf4zfgzcpnu6htpx.png",
-    "variations": [
+    "variations": [      
       {
         "id": "fa15887e-888c-4be1-a032-b15c0d4cbf6a",
         "name": "Ceviche",
+        "hasPrice": false,
         "options": [
           {
             "id": "9f80cb90-21dc-4ea7-bcf4-181dc045320f",
@@ -1842,6 +1883,7 @@
       {
         "id": "1397ad97-9973-427a-bf62-ad9c371d24b1",
         "name": "Chicharrón",
+        "hasPrice": false,
         "options": [
           {
             "id": "11342e89-c62d-4a3d-91a4-1bde77bda05b",
@@ -1856,6 +1898,7 @@
       {
         "id": "a759016e-8861-4d63-8579-5979b0f496fc",
         "name": "Arroz",
+        "hasPrice": false,
         "options": [
           {
             "id": "0a6678d3-ed34-45d2-b79d-c01a2d227783",
@@ -1874,6 +1917,7 @@
       {
         "id": "20c1eb34-891e-48a3-8151-bf6a60604a00",
         "name": "Causa",
+        "hasPrice": false,
         "options": [
           {
             "id": "4bb00314-fb94-4d79-8bca-539fbc347e3b",
@@ -1892,6 +1936,7 @@
       {
         "id": "b51adab8-42f1-4b8f-b5eb-ab64543e7086",
         "name": "Picante",
+        "hasPrice": false,
         "options": [
           {
             "id": "6497756a-e30a-49d1-b270-989e5548c1ec",

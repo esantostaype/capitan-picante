@@ -90,9 +90,12 @@ export const Modal = ({ children, title, size, withBackRoute, isOpen }: Props ) 
             <div className="hidden md:block absolute md:top-3 xl:top-4 right-4 z-30">
               <IconButton onClick={ ()=> closeModal( withBackRoute ) } iconName='cross-small' variant={ Variant.GHOST } />
             </div>
-            <div className="py-6 px-8 border-b border-b-gray50 sticky top-0">
-              <h1 className="text-xl font-semibold">{ title }</h1>
-            </div>
+            {
+              title &&
+              <div className="py-6 px-8 border-b border-b-gray50 sticky top-0">
+                <h1 className="text-xl font-semibold">{ title }</h1>
+              </div>
+            }
             { children }
           </div>
           <ModalBackground onClick={ ()=> closeModal( withBackRoute ) } active={ activeClassModal } />

@@ -7,16 +7,18 @@ import Link from 'next/link'
 export const OrderHeader = () => {
   
   const pathname = usePathname()
-  const { openOrderSummary, closeOrderSummary, activeOrderSummary, closeModal } = useUiStore()
+  const { openOrderSummary, closeOrderSummary, activeOrderSummary, closeModal, closeModalPage } = useUiStore()
 
   const handleOpenOrderSummary = () => {
     openOrderSummary()
     closeModal()
+    closeModalPage()
   }
 
   const handleCloseOrderSummary = () => {
     closeOrderSummary()
     closeModal()
+    closeModalPage()
   }
 
   return (
@@ -30,24 +32,24 @@ export const OrderHeader = () => {
               </div>
             </li>
             <li className={`${ pathname === '/tables' && !activeOrderSummary ? "text-accent" : "" } flex-1 md:flex-auto`}>
-              <Link href='/tables' className="flex flex-col gap-[6px]" onClick={() => closeModal() }>
+              <Link href='/tables' className="flex flex-col gap-[6px]" onClick={() => handleCloseOrderSummary() }>
                 <i className="block md:hidden fi fi-rr-apps text-base"></i>
                 Mesas
               </Link>
             </li>
             <li className={`${ pathname.startsWith('/menu') && !activeOrderSummary ? "text-accent" : "" } flex-1 md:flex-auto`}>
-              <Link href='/menu' className="flex flex-col gap-[6px]" onClick={() => closeModal() }>
+              <Link href='/menu' className="flex flex-col gap-[6px]" onClick={() => handleCloseOrderSummary() }>
                 <i className="block md:hidden fi fi-rr-room-service text-base"></i>
                 Menú
               </Link>
             </li>
             <li className="flex-1 md:flex-auto block md:hidden">
-              <div className="flex justify-center" onClick={() => closeModal() }>
+              <div className="flex justify-center" onClick={() => handleCloseOrderSummary() }>
                 <Image src="/images/logo.svg" width="32" height="32" alt="Capitán Comanda" />
               </div>
             </li>
             <li className={`${ pathname === 's' && !activeOrderSummary ? "text-accent" : "" } flex-1 md:flex-auto`}>
-              <div className="flex flex-col gap-[6px]" onClick={() => closeModal() }>
+              <div className="flex flex-col gap-[6px]" onClick={() => handleCloseOrderSummary() }>
                 <i className="block md:hidden fi fi-rr-list text-base"></i>
                 Historial
               </div>
