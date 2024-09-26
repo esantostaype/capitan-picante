@@ -2,13 +2,14 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useOrderStore } from '@/store/order-store'
 import { Formik, Form } from 'formik'
-import { Client, Color, OrderType, Product, Size, Variant } from '@/interfaces'
+import { Client, Color, OrderStatus, OrderType, Product, Size, Variant } from '@/interfaces'
 import { toast } from 'react-toastify'
 import { Button, ModalBody, ModalFooter, ModalPage, Spinner, TextField } from '@/components'
 import { useUiStore } from '@/store/ui-store'
 import OrderFormTypeItem from './OrderFormTypeItem'
 import { OrderPrint } from './OrderPrint'
 import { useReactToPrint } from 'react-to-print'
+import { useGlobalStore } from '@/store/global-store'
 
 interface FormValues {
   floor: string
@@ -24,14 +25,15 @@ export const OrderForm = () => {
 
   const order = useOrderStore(( state ) => state.order )
   const setOrder = useOrderStore((state) => state.setOrder)
+  const saveOrderToLocalStorage = useOrderStore((state) => state.saveOrderToLocalStorage)
   const clearOrder = useOrderStore(( state ) => state.clearOrder )
   const total = useMemo(() => order.reduce(( total, item ) => total + ( ( item.quantity || 0 ) * item.price ), 0), [ order ])
-  const { activeModalPage, closeModalPage, closeModal } = useUiStore()
-  const [ clientSelected, setClientSelected ] = useState<Client | null>( null )
+  const { activeModalPage, closeModalPage } = useUiStore()
+  const { toggleUpdateTrigger } = useGlobalStore()
+  const [ clientSelected, setClientSelected ] = useState<Client | undefined>( undefined )
   const [ isPrinted, setIsPrinted ] = useState(false)
 
   const {
-    selectedFloorId,
     selectedFloorName,
     setSelectedFloorId,
     setSelectedFloorName,
@@ -56,7 +58,7 @@ export const OrderForm = () => {
   useEffect(() => {
     if (!activeModalPage) {
       setSelectedOrderType( OrderType.DINE_IN )
-      setClientSelected( null )
+      setClientSelected( undefined )
       setNotes('')
     }
   }, [ activeModalPage ])
@@ -75,25 +77,38 @@ export const OrderForm = () => {
     content: () => componentRef.current,
     onAfterPrint: () => {
       setIsPrinted( true )
-      closeModal( true )
     },
-    onBeforeGetContent: () => {
+    onBeforePrint: () => {
       setIsPrinted( false )
     }
   })
   
   const handleSubmit = async () => {
 
-    if( !selectedTableId ) {
+    if( !selectedTableId && selectedOrderType === OrderType.DINE_IN ) {
       toast.error('Por favor, selecciona una mesa')
       return
     }
 
-    if( !selectedFloorId ) {
-      toast.error('Por favor, selecciona un ambiente')
-      return
+    const newOrder = {
+      id: `order_${Date.now()}`, // Genera un ID único
+      total,
+      floor: selectedFloorName || '',
+      table: selectedTableNumber || '',
+      tableId: selectedTableId || '',
+      orderType: selectedOrderType,
+      notes,
+      status: OrderStatus.IN_PREPARATION, // Estado inicial
+      date: new Date(),
+      orderProducts: order,
+      clientId: clientSelected?.id,
+      client: clientSelected,
+      orderNumber: `ORD-${Date.now()}` // Un número de orden único
     }
+
+    saveOrderToLocalStorage(newOrder)
     handlePrint()
+    toggleUpdateTrigger()
   }
 
   useEffect(() => {

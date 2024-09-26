@@ -36,10 +36,26 @@ export enum  OrderType {
   DELIVERY = 'DELIVERY'
 }
 
+export enum OrderStatus {
+  RECEIVED = 'RECEIVED',
+  IN_PREPARATION = 'IN_PREPARATION',
+  READY = 'READY',
+  DONE = 'DONE',
+  CANCELED = 'CANCELED'
+}
+
 export const orderTypeTranslations: { [ key in OrderType ]: string } = {
   [ OrderType.DINE_IN ]: 'Comer en Salón',
   [ OrderType.TAKE_AWAY ]: 'Para Llevar',
   [ OrderType.DELIVERY ]: 'Delivery'
+}
+
+export const orderStatusTranslations: { [ key in OrderStatus ]: string } = {
+  [ OrderStatus.RECEIVED ]: 'Recibida',
+  [ OrderStatus.IN_PREPARATION ]: 'En Preparación',
+  [ OrderStatus.READY ]: 'Lista para Servir',
+  [ OrderStatus.DONE ]: 'Entregada',
+  [ OrderStatus.CANCELED ]: 'Cancelada'
 }
 
 export interface Client {
@@ -144,4 +160,21 @@ export interface SelectedVariants {
 
 export interface SelectedAdditionals {
   [ key: string ]: number
+}
+
+export interface Order {
+  id: string
+  total: number
+  floor: string
+  table: string
+  tableId: string
+  orderType: OrderType
+  notes?: string
+  status: OrderStatus
+  date: Date
+  orderReadyAt?: Date
+  orderProducts: Product[]
+  clientId?: string
+  client?: Client
+  orderNumber: string
 }

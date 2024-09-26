@@ -1,6 +1,7 @@
 import React, { forwardRef } from 'react'
-import { Product, Client, OrderType, orderTypeTranslations } from '@/interfaces'
-import { formatCurrency } from '@/utils';
+import { Product, Client, OrderType } from '@/interfaces'
+import { formatCurrency } from '@/utils'
+import { format } from '@formkit/tempo'
 
 interface Props {
   orderData: {
@@ -10,91 +11,57 @@ interface Props {
     table: string
     total: number
     orderType: OrderType
-    notes: string
     client?: Client | null
   }
 }
 
 export const InvoicePrint = forwardRef<HTMLDivElement, Props>(({ orderData }, ref) => {
 
+  const date = new Date()
+
   return (
-    <div ref={ref} className="uppercase font-jetbrains text-base w-[105mm] text-black">
+    <div ref={ref} className="font-roboto uppercase text-base w-[105mm] text-black">
       <div className="mb-3 text-center">        
-        <h2 className="leading-none text-gray600">Capitán Picante</h2>
-        <h1 className="text-2xl font-bold leading-none mt-2 mb-1">Comanda #{ parseInt( orderData.orderNumber ) }</h1>
-        <h2 className="leading-none">Mesero: Pedro Ramirez</h2>
-      </div>
-      <div className="py-2 border-t border-t-black border-dashed">
-        <div className="flex justify-between items-center pb-2">
-          <div className="leading-5">
-            <p>Fecha: 03/09/2024</p>
-            <p>Hora: 11:06:32</p>
-          </div>
-          <div className="text-right">
-            <div className="font-bold text-2xl leading-6">Mesa: { orderData.table }</div>
-            <div>{ orderData.floor }</div>
-          </div>
+        <div className="leading-none">Capitán Picante<br/>
+        Av. Mateo Pumacahua, Mz. E Lt. 4<br/>Laderas de Villa, San Juan de Miraflores<br/>
+        RUC: 10444597602</div>
+        <h1 className="text-xl font-bold leading-none mt-2 mb-1">Nota de Venta Electrónica</h1>
+        <div className="normal-case">
+          { format( date, "DD-MM-YYYY", 'es' )} - { format( date, "H:mm:ss", 'es') }
         </div>
-        <div className="leading-5">
-          Tipo de Pedido: <strong>{ orderTypeTranslations[ orderData.orderType ] }</strong>
+        <div className="text-left leading-none">
+          Cliente: Varios<br/>
+          Dirección: Lima
         </div>
-        { orderData.client && (
-          <div className="leading-5">
-            Cliente: <strong>{ orderData.client.fullName }</strong>
-          </div>
-        )}
       </div>
       <div className="mt-2">
         <table className="w-full">
           <thead className="text-sm leading-3">
             <tr>
-              <th className="py-2 pr-2 border-y text-left border-dashed border-black"></th>
-              <th className="py-2 pr-2 border-y text-left border-dashed border-black">Producto</th>
-              <th className="py-2 pr-4 border-y text-right border-dashed border-black">Precio</th>
-              <th className="py-2 border-y text-right border-dashed border-black">Subtotal</th>
+              <th className="py-2 pr-2"></th>
+              <th className="py-2 pr-2 text-left">Producto</th>
+              <th className="py-2 text-right">Subtotal</th>
             </tr>
           </thead>
           <tbody className="leading-[1.125em]">
             { orderData.order.map(item => (
               <tr key={ item.id }>
-                <td className="align-text-top pr-2 py-2 border-b border-b-black border-dashed">
+                <td className="align-text-top pr-2">
                     x{ item.quantity }                  
                 </td>
-                <td className="align-text-top pr-2 py-2 border-b border-b-black border-dashed">
+                <td className="align-text-top pr-2">
                     <div className="mb-1">{ item.name }</div>
-                    { item.selectedVariations && (
-                      <div className="mt-1 text-sm leading-4">
-                        { Object.entries( item.selectedVariations ).map(([ variation, option ]) => (
-                          <div key={ variation }>{ variation }:<br/><strong>{ option }</strong></div>
-                        ))}
-                      </div>
-                    )}
-                    {
-                      item.notes &&
-                      <div className="mt-1 text-sm leading-4">
-                        Nota: <strong>{ item.notes }</strong>
-                      </div>
-                    }
                 </td>
-                <td className="align-text-top pr-4 py-2 text-right text-nowrap border-b border-b-black border-dashed">
-                    { formatCurrency( item.price )}                  
-                </td>
-                <td className="align-text-top text-right py-2 text-nowrap border-b border-b-black border-dashed">
+                <td className="align-text-top text-right text-nowrap">
                     { formatCurrency( item.subtotal || 0 )}                  
                 </td>
               </tr>
             ))}
             <tr>
-              <td colSpan={ 4 } className="text-right py-3"><strong>Total: <span className="text-xl">{ formatCurrency( orderData.total )}</span></strong></td>
+              <td colSpan={ 4 } className="text-right py-3"><strong>Total: { formatCurrency( orderData.total )}</strong></td>
             </tr>
           </tbody>
         </table>
-        {
-          orderData.notes &&
-          <div className="border-t border-t-black border-dashed py-3">
-            Nota: <strong>{ orderData.notes }</strong>
-          </div>
-        }
       </div>
     </div>
   )

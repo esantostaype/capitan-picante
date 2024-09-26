@@ -29,6 +29,7 @@
   --gray-800: #35343a;
   --gray-900: #25242a;
   --jetbrains-mono: 'JetBrains Mono Variable', monospace;
+  --roboto-condensed: 'Roboto Condensed Variable';
 }
 
 ::-webkit-scrollbar {

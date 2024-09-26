@@ -36,7 +36,7 @@ export const OrderPrint = forwardRef<HTMLDivElement, Props>(({ orderData }, ref)
   }, [ orderData.order ])
 
   return (
-    <div ref={ref} className="uppercase leading-[1.125em] text-lg w-[105mm] text-black">
+    <div ref={ref} className="font-roboto uppercase leading-[1.125em] text-lg w-[105mm] text-black">
       <div className="mb-3 text-center">
         <div className="normal-case">
           { format( date, "DD-MM-YYYY", 'es' )} - { format( date, "H:mm:ss", 'es') }

@@ -1,12 +1,15 @@
 import { create } from 'zustand'
-import { Product } from '@/interfaces'
+import { Order, Product } from '@/interfaces'
 
 interface OrderStore {
-  order: Product[]
+  order: Product[],
   addToOrder: (
     product: Product,
     quantity: number,
-  ) => void
+  ) => void,
+  saveOrderToLocalStorage: (
+    newOrder: Order
+  ) => void,
   increaseQuantity: (
     id: Product['id'],
     uniqueId: string
@@ -31,10 +34,18 @@ interface OrderStore {
 
 export const useOrderStore = create<OrderStore>(( set, get ) => {
 
-  const updateLocalStorage = ( order: Product[] ) => {
+  const updateLocalStorage = (key: string, value: unknown) => {
     if ( typeof window !== 'undefined' && window.localStorage ) {
-      localStorage.setItem('order', JSON.stringify( order ))
+      localStorage.setItem(key, JSON.stringify(value))
     }
+  }
+
+  const getOrdersFromLocalStorage = (): Order[] => {
+    if (typeof window !== 'undefined' && window.localStorage) {
+      const savedOrders = localStorage.getItem('orders')
+      return savedOrders ? JSON.parse(savedOrders) : []
+    }
+    return []
   }
 
   return {
@@ -43,12 +54,24 @@ export const useOrderStore = create<OrderStore>(( set, get ) => {
     selectedFloorId: null,
     selectedTableId: null,
     setSelectedFloorName: (floorName) => set({ selectedFloorName: floorName }),
-    setSelectedTableNumber: (tableNumber) => set({ selectedTableNumber: tableNumber }),
+    setSelectedTableNumber: (tableNumber) => {
+      set({ selectedTableNumber: tableNumber })
+      updateLocalStorage('selectedTableNumber', tableNumber)
+    },
     setSelectedFloorId: (floorId) => set({ selectedFloorId: floorId }),
-    setSelectedTableId: (tableId) => set({ selectedTableId: tableId }),
+    setSelectedTableId: (tableId) => {
+      set({ selectedTableId: tableId })
+      updateLocalStorage('selectedTableId', tableId)
+    },
     order: [],
     delivery: false,
+    saveOrderToLocalStorage: ( newOrder ) => {
+      const currentOrders = getOrdersFromLocalStorage()
+      const updatedOrders = [...currentOrders, newOrder]
+      updateLocalStorage('orders', updatedOrders)
+    },
     addToOrder: ( product, quantity) => {
+
       const existingItem = get().order.find(
         (item) => item.id === product.id && 
           item.uniqueId === product.uniqueId
@@ -86,7 +109,7 @@ export const useOrderStore = create<OrderStore>(( set, get ) => {
         }));
       }
     
-      updateLocalStorage(get().order);
+      updateLocalStorage('order', get().order);
     },
 
     increaseQuantity: ( id, uniqueId ) => {
@@ -101,7 +124,7 @@ export const useOrderStore = create<OrderStore>(( set, get ) => {
             : item
         ),
       }));
-      updateLocalStorage(get().order);
+      updateLocalStorage('order', get().order);
     },
     
     decreaseQuantity: ( id, uniqueId ) => {
@@ -119,7 +142,7 @@ export const useOrderStore = create<OrderStore>(( set, get ) => {
           )
           .filter((item) => ( item.quantity || 0) > 0),
       }));
-      updateLocalStorage(get().order);
+      updateLocalStorage( 'order', get().order );
     },
     
     removeItem: ( uniqueId ) => {
@@ -127,7 +150,7 @@ export const useOrderStore = create<OrderStore>(( set, get ) => {
         order: state.order.filter(( item ) => !( item.uniqueId === uniqueId ))
       }))
 
-      updateLocalStorage( get().order )
+      updateLocalStorage( 'order', get().order )
     },
 
     clearOrder: () => {
@@ -135,7 +158,7 @@ export const useOrderStore = create<OrderStore>(( set, get ) => {
         order: [],
         delivery: false
       }))
-      updateLocalStorage([])
+      updateLocalStorage( 'order', [] )
     },
     
     setOrder: ( newOrder ) => {

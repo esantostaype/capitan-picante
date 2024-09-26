@@ -1,6 +1,6 @@
 import { Product } from '@/interfaces'
 import productsData from '@/data/products.json'
-import { OrderProductDetail } from '../../../components';
+import { OrderProductDetail } from '../../../components'
 
 interface Props {
   params: {

@@ -32,7 +32,8 @@ const config: Config = {
         foregroundLight: 'var(--foreground-light)'
       },
       fontFamily: {
-        jetbrains: 'var(--jetbrains-mono)'
+        jetbrains: 'var(--jetbrains-mono)',
+        roboto: 'var(--roboto-condensed)'
       },
       keyframes: {
         enterBackgroundModal: {
