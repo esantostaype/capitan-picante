@@ -108,7 +108,7 @@ export const OrderTables = ({ floors }: Props) => {
                           {table.number}
                         </span>
                         <RestaurantTable
-                          className={`w-16 h-16 md:w-24 md:h-24 absolute z-10 transition-all ${
+                          className={`w-20 h-20 md:w-24 md:h-24 absolute z-10 transition-all ${
                             selectedTableId === table.id
                               ? 'fill-accent'
                               : isTableOccupied
