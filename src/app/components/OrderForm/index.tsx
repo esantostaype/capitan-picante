@@ -103,7 +103,7 @@ export const OrderForm = () => {
       orderProducts: order,
       clientId: clientSelected?.id,
       client: clientSelected,
-      orderNumber: `ORD-${Date.now()}` // Un número de orden único
+      orderNumber: `${Date.now()}` // Un número de orden único
     }
 
     saveOrderToLocalStorage(newOrder)
