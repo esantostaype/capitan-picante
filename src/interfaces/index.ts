@@ -85,6 +85,7 @@ export interface Product {
   image: string
   categoryId: string
   variations: ProductVariation[]
+  variationOptionId?: string
   quantity?: number
   selectedVariations?: { [ key: string ]: string }
   notes?: string
