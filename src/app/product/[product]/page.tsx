@@ -26,6 +26,7 @@ export default async function OrderMenuProductPage({ params }: Props) {
     (p) => p.id === params.product
   )
   const categories: Category[] = categoriesData
+
   return (
     <>
     <div className="hidden md:flex p-4 md:px-6 md:py-4 md:border-b md:border-b-gray50 sticky top-14 z-[999] md:bg-surface">

@@ -5,8 +5,7 @@ import { Color, Variant, Product, Size } from '@/interfaces'
 import { Button, Counter, IconButton, SimpleSpinner, TextField } from '@/components'
 import { toast } from 'react-toastify'
 import { formatCurrency, generateUniqueId, getMinVariantPrice, getVariantPrice } from '@/utils'
-import { useUiStore } from '@/store/ui-store'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { OrderProductDetailVariantSelector } from './OrderProductDetailVariantSelector'
 import { Formik, Form } from 'formik'
 
@@ -15,9 +14,7 @@ interface Props {
 }
 
 export const OrderProductDetailPage = ({ product }: Props) => {
-
   const addToOrder = useOrderStore(( state ) => state.addToOrder )
-  const { activeModal, closeModal } = useUiStore()
   const [ quantity, setQuantity ] = useState<number>(1)
 
   interface FormValues {
@@ -34,10 +31,6 @@ export const OrderProductDetailPage = ({ product }: Props) => {
     notes: ''
   }
 
-  useEffect(() => {
-    setQuantity(1)
-  }, [ activeModal ])
-
   const handleAddToOrder = ( values : FormValues ) => {
 
     const allVariations = { ...values.selectedVariantWithPrice, ...values.selectedVariants }
@@ -53,8 +46,6 @@ export const OrderProductDetailPage = ({ product }: Props) => {
         uniqueId
       }, quantity )
     }
-
-    closeModal(true)
     toast.success(`¡${ product?.name } Agregad@!`)
   }
 
@@ -82,7 +73,7 @@ export const OrderProductDetailPage = ({ product }: Props) => {
           <div className="w-full flex gap-4 items-center">
             <div className="flex w-full md:w-auto items-center gap-2">
               <div className="block xl:hidden">
-                <IconButton iconName='arrow-left' size={ Size.SM } onClick={ ()=>closeModal( true ) }/>
+                <IconButton iconName='arrow-left' size={ Size.SM }/>
               </div>
               <h1 className="w-full flex-1 text-base md:text-xl leading-tight font-semibold text-ellipsis text-nowrap overflow-hidden">{ product.name }</h1>
             </div>
