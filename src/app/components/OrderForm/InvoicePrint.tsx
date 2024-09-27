@@ -34,7 +34,7 @@ export const InvoicePrint = forwardRef<HTMLDivElement, Props>(({ orderData }, re
           Dirección: Lima
         </div>
       </div>
-      <div className="mt-2">
+      <div className="my-2">
         <table className="w-full">
           <thead className="text-sm leading-3">
             <tr>
@@ -63,6 +63,7 @@ export const InvoicePrint = forwardRef<HTMLDivElement, Props>(({ orderData }, re
           </tbody>
         </table>
       </div>
+      <div>Gracias por su visita.</div>
     </div>
   )
 })

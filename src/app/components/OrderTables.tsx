@@ -55,7 +55,7 @@ export const OrderTables = ({ floors }: Props) => {
     }
   }, [floors, setSelectedFloorId, setSelectedFloorName])
 
-  const releaseTable = (tableId: string) => {
+  const releaseTable = ( tableId: string ) => {
     const updatedOrders = orders.filter(order => order.tableId !== tableId)
     setOrders(updatedOrders)
     localStorage.setItem('orders', JSON.stringify(updatedOrders)) // Actualizar localStorage
@@ -155,13 +155,24 @@ export const OrderTables = ({ floors }: Props) => {
                         </tbody>
                       </table>
                     </div>
-                    <Button
-                      text="Cobrar"
-                      variant={Variant.CONTAINED}
-                      color={Color.ACCENT}
-                      size={ Size.LG }
-                      onClick={handlePrint}
-                    />
+                    <div className="flex gap-4">
+                      <Button
+                        text="Liberar"
+                        variant={ Variant.CONTAINED }
+                        color={ Color.SUCCESS }
+                        size={ Size.LG }
+                        onClick={ () => releaseTable( selectedOrder.tableId ) }
+                        full
+                      />
+                      <Button
+                        text="Cobrar"
+                        variant={Variant.CONTAINED}
+                        color={Color.ACCENT}
+                        size={ Size.LG }
+                        onClick={handlePrint}
+                        full
+                      />
+                    </div>
                   </ModalBody>
                 </Modal>
               )}
