@@ -117,7 +117,7 @@ export const OrderTables = ({ floors }: Props) => {
               if (variation.hasPrice) {
                 return variation.options.map((option) => ({
                   ...product,
-                  name: `${product.name} - ${variation.name}: ${option.name}`, // Nombre con variación
+                  name: `${product.name} ${option.name}`, // Nombre con variación
                   price: (option as { price: number }).price, // Precio de la opción
                   variationOptionId: option.id, // ID de la opción
                 }));
