@@ -26,6 +26,14 @@ export const OrderTables = ({ floors }: Props) => {
   const [ filteredProducts, setFilteredProducts ] = useState<Product[]>([])
   const [ isEditing, setIsEditing ] = useState(false)
 
+  const searchResultsRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if ( isEditing || filteredProducts.length > 0 ) {
+      searchResultsRef.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [ isEditing, filteredProducts ])
+
   const {
     setSelectedFloorId,
     setSelectedFloorName,
@@ -332,7 +340,7 @@ export const OrderTables = ({ floors }: Props) => {
                       />
                     </div>
                     {isEditing && (
-                      <div className="mt-4 relative">
+                      <div className="mt-4 relative" ref={ searchResultsRef }>
                         <input
                           type="text"
                           placeholder="Buscar producto o categoría..."
