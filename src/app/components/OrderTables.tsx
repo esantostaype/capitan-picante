@@ -157,8 +157,9 @@ export const OrderTables = ({ floors }: Props) => {
       setSelectedOrder(updatedOrder);
   
       // Limpiar el searchTerm después de agregar el producto
-      setSearchTerm('');
+      setSearchTerm('')
       setIsEditing(false)
+      setFilteredProducts([])
   
       // Actualizar la lista de órdenes
       const updatedOrders = orders.map(order =>
