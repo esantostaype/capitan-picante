@@ -201,6 +201,15 @@ export const OrderTables = ({ floors }: Props) => {
     }
   }
 
+  useEffect(() => {
+    if( !activeModal ) {
+      setSearchTerm('')
+      setIsEditing(false)
+      setFilteredProducts([])
+    }
+  }, [ activeModal ])
+  
+
   return (
     <div>
       <Tabs
