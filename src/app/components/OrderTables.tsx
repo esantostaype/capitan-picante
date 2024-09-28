@@ -265,6 +265,7 @@ export const OrderTables = ({ floors }: Props) => {
                     </div>
                   </ModalHeader>
                   <ModalBody>
+                    <div className="pb-16 md:pb-0">
                     <div className="rounded border border-gray100 mb-4">
                       <table className="w-full">
                         <thead className="text-sm leading-3">
@@ -354,6 +355,7 @@ export const OrderTables = ({ floors }: Props) => {
                         )}
                       </div>
                     )}
+                    </div>
                   </ModalBody>
                 </Modal>
               )}

@@ -63,7 +63,7 @@ export const InvoicePrint = forwardRef<HTMLDivElement, Props>(({ orderData }, re
           </tbody>
         </table>
       </div>
-      <div>Gracias por su visita.</div>
+      <div className="text-center">Gracias por su visita.</div>
     </div>
   )
 })
