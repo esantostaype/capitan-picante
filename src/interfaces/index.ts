@@ -90,6 +90,7 @@ export interface Product {
   selectedVariations?: { [ key: string ]: string }
   notes?: string
   subtotal?: number
+  isNew?: boolean
   category: {
     name: string
     orderNumber: number
