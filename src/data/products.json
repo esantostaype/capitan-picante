@@ -1782,9 +1782,9 @@
   },
   {
     "id": "0b59364d-abb4-4962-9338-4dd072d1885c",
-    "name": "Menu Arrocero",
+    "name": "Menú Arrocero",
     "description": "",
-    "price": 16,
+    "price": 18,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784856/mmdecyzc3bymstptvgjj.png",
     "variations": [
       {
@@ -1839,7 +1839,7 @@
     "id": "4a39bb35-9cee-4923-8207-51acf334b05b",
     "name": "Menú Chicharronero",
     "description": "",
-    "price": 14,
+    "price": 16,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784816/beoudw3g01aiwq2jsmpy.png",
     "variations": [
       {
