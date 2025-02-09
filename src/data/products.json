@@ -669,7 +669,7 @@
     "id": "2838a949-1f73-495a-847c-e1399ab1c09f",
     "name": "Chicharrón de Pota",
     "description": "",
-    "price": 20,
+    "price": 16,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781209/knhzowzxikxp1tvvbsme.png",
     "variations": [],
     "category": 
@@ -834,7 +834,7 @@
     "id": "6950999e-bdc2-4820-9fde-9518c90e5588",
     "name": "Porción de Chicharrón de Pota",
     "description": "",
-    "price": 12,
+    "price": 9,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726781530/i1dex8pl0ycvab38gcpn.jpg",
     "variations": [],
     "category": 
@@ -1291,7 +1291,7 @@
     "id": "35dfce34-0f35-434c-97a2-3e9dc7b70b71",
     "name": "Dúo carretillero",
     "description": "",
-    "price": 20,
+    "price": 16,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726782428/nwkfrscyinteqxpdgbku.png",
     "variations": [
       {
@@ -1330,7 +1330,7 @@
     "id": "b7547ddc-71fa-4538-9a6f-c86c860f945d",
     "name": "Trío Carretillero",
     "description": "",
-    "price": 26,
+    "price": 24,
     "image": "https://res.cloudinary.com/dq6txmetn/image/upload/v1726784041/fgp4hmj4ruaybrh9eyow.png",
     "variations": [
       {
